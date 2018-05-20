@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RunAccountingAPITests"
+           tests="3"
+           failures="1"
+           errors="0"
+           skipped="2"
+           time="1.939">
+  <properties />
+            <testcase name="BaseClassSetUp" time="0.000" classname="com.testsuite.accountingapi.Disbursement">
+                <failure type="java.lang.NullPointerException"
+                  message="(null)"
+              >
+<![CDATA[java.lang.NullPointerException
+  com.testsuite.accountingapi.Disbursement.BaseClassSetUp(Disbursement.java:30)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+  org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+  org.testng.TestRunner.privateRun(TestRunner.java:767)
+  org.testng.TestRunner.run(TestRunner.java:617)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+  org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+  org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+  org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+  java.util.concurrent.FutureTask.run(FutureTask.java:266)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+  
+            <testcase name="CloseBrowser" time="0.0" classname="com.testsuite.accountingapi.Disbursement">
+          <skipped />
+    </testcase>
+            <testcase name="tc_AccountingAPI_001_testProcessDonations" time="0.0" classname="com.testsuite.accountingapi.Disbursement">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

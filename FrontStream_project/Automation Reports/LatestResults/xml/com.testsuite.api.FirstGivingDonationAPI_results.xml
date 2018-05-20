@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RunAPITests"
+           tests="1"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="4.065">
+  <properties />
+            <testcase name="tc_API_001_DonationAPI" time="4.065" classname="com.testsuite.api.FirstGivingDonationAPI">
+                <failure type="java.lang.AssertionError"
+                  message="error while executing the requesthttps://qa-api.firstgiving.com/donation/creditcard?charityId=b62c2436-edd0-11df-ab8c-4061860da51d&amp;ccCardValidationNum=123&amp;billToFirstName=John&amp;billToAddressLine3=3MainSt.&amp;ccNumber=4111111111111111&amp;billToAddressLine2=2MainSt.&amp;billToAddressLine1=1MainSt.&amp;remoteAddr=1.1.1.1&amp;billToCity=Burlington&amp;ccExpDateMonth=01&amp;currencyCode=USD&amp;donationMessage=Testing_messag&amp;amount=5.00&amp;orderId=1234&amp;billToZip=01803&amp;personalIdentificationNumber=0&amp;billToState=MA&amp;billToCountry=US&amp;reportDonationToTaxAuthority=0&amp;billToMiddleName=D&amp;eventId=12345&amp;ccType=VI&amp;ccExpDateYear=23&amp;description=Test&amp;billToEmail=alex.winskie@frontstreampayments.com&amp;billToLastName=Smith
+sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target"
+              >
+<![CDATA[java.lang.AssertionError: error while executing the requesthttps://qa-api.firstgiving.com/donation/creditcard?charityId=b62c2436-edd0-11df-ab8c-4061860da51d&ccCardValidationNum=123&billToFirstName=John&billToAddressLine3=3MainSt.&ccNumber=4111111111111111&billToAddressLine2=2MainSt.&billToAddressLine1=1MainSt.&remoteAddr=1.1.1.1&billToCity=Burlington&ccExpDateMonth=01&currencyCode=USD&donationMessage=Testing_messag&amount=5.00&orderId=1234&billToZip=01803&personalIdentificationNumber=0&billToState=MA&billToCountry=US&reportDonationToTaxAuthority=0&billToMiddleName=D&eventId=12345&ccType=VI&ccExpDateYear=23&description=Test&billToEmail=alex.winskie@frontstreampayments.com&billToLastName=Smith
+sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+  com.testng.Assert.fail(Assert.java:208)
+  com.httpclient.APIHelpers.execute(APIHelpers.java:267)
+  com.httpclient.APIHelpers.executePostRequest(APIHelpers.java:416)
+  com.testsuite.api.FirstGivingDonationAPI.tc_API_001_DonationAPI(FirstGivingDonationAPI.java:49)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+  org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:46)
+  org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:37)
+  org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNoExecutor(MethodInvocationHelper.java:240)
+  org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:229)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:724)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+  org.testng.TestRunner.privateRun(TestRunner.java:767)
+  org.testng.TestRunner.run(TestRunner.java:617)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+  org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+  org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+  org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+  java.util.concurrent.FutureTask.run(FutureTask.java:266)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+  
+</testsuite>

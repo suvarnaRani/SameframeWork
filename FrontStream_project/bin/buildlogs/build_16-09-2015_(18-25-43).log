@@ -1,0 +1,740 @@
+     [echo] Build logs can be found at build_16-09-2015_(18-25-43).log
+init:  duration 0 seconds
+
+setClassPath:
+     [echo] Setting CLASSPATH.....
+[pathconvert] Set property test.classpath = D:\FrontStream_Final\FrontStream_project:D:\FrontStream_Final\FrontStream_project\lib\Decoder.jar:D:\FrontStream_Final\FrontStream_project\lib\FastInfoset-1.2.12.jar:D:\FrontStream_Final\FrontStream_project\lib\Fillo-1.6.jar:D:\FrontStream_Final\FrontStream_project\lib\activation.jar:D:\FrontStream_Final\FrontStream_project\lib\allure-java-adaptor-api-1.4.0.jar:D:\FrontStream_Final\FrontStream_project\lib\allure-java-annotations-1.4.0.jar:D:\FrontStream_Final\FrontStream_project\lib\allure-java-aspects-1.4.0.jar:D:\FrontStream_Final\FrontStream_project\lib\allure-model-1.4.0.jar:D:\FrontStream_Final\FrontStream_project\lib\allure-testng-adaptor-1.4.0-javadoc.jar:D:\FrontStream_Final\FrontStream_project\lib\allure-testng-adaptor-1.4.0-sources.jar:D:\FrontStream_Final\FrontStream_project\lib\allure-testng-adaptor-1.4.0.jar:D:\FrontStream_Final\FrontStream_project\lib\ant-contrib-0.6.jar:D:\FrontStream_Final\FrontStream_project\lib\aspectjrt-1.8.4.jar:D:\FrontStream_Final\FrontStream_project\lib\aspectjweaver-1.8.4-sources.jar:D:\FrontStream_Final\FrontStream_project\lib\aspectjweaver-1.8.4.jar:D:\FrontStream_Final\FrontStream_project\lib\automaton.jar:D:\FrontStream_Final\FrontStream_project\lib\bsh-2.0b4.jar:D:\FrontStream_Final\FrontStream_project\lib\commons-beanutils-core-1.8.3.jar:D:\FrontStream_Final\FrontStream_project\lib\commons-configuration-1.9.jar:D:\FrontStream_Final\FrontStream_project\lib\commons-lang-2.6.jar:D:\FrontStream_Final\FrontStream_project\lib\commons-logging-1.1.1.jar:D:\FrontStream_Final\FrontStream_project\lib\dom4j-full.jar:D:\FrontStream_Final\FrontStream_project\lib\fontbox-1.8.8.jar:D:\FrontStream_Final\FrontStream_project\lib\guice-3.0.jar:D:\FrontStream_Final\FrontStream_project\lib\hamcrest-core-1.3.jar:D:\FrontStream_Final\FrontStream_project\lib\istack-commons-runtime-2.16.jar:D:\FrontStream_Final\FrontStream_project\lib\javacsv.jar:D:\FrontStream_Final\FrontStream_project\lib\jaxb-api-2.2.7.jar:D:\FrontStream_Final\FrontStream_project\lib\jaxb-core-2.2.7.jar:D:\FrontStream_Final\FrontStream_project\lib\jaxb-impl-2.2.7.jar:D:\FrontStream_Final\FrontStream_project\lib\jaxb2-basics-runtime-0.6.5.jar:D:\FrontStream_Final\FrontStream_project\lib\jcommander-1.27.jar:D:\FrontStream_Final\FrontStream_project\lib\jdom-2.0.5.jar:D:\FrontStream_Final\FrontStream_project\lib\json-simple.jar:D:\FrontStream_Final\FrontStream_project\lib\jsr173_api-1.0.jar:D:\FrontStream_Final\FrontStream_project\lib\log4j-1.2.17.jar:D:\FrontStream_Final\FrontStream_project\lib\mail.jar:D:\FrontStream_Final\FrontStream_project\lib\monte-screenrecorder.jar:D:\FrontStream_Final\FrontStream_project\lib\mysql-connector-java-5.1.18-bin.jar:D:\FrontStream_Final\FrontStream_project\lib\pdfbox-1.8.8.jar:D:\FrontStream_Final\FrontStream_project\lib\poi-3.9-20121203.jar:D:\FrontStream_Final\FrontStream_project\lib\poi-ooxml-3.9-20121203.jar:D:\FrontStream_Final\FrontStream_project\lib\poi-ooxml-schemas-3.9-20121203.jar:D:\FrontStream_Final\FrontStream_project\lib\properties-loader-1.5.jar:D:\FrontStream_Final\FrontStream_project\lib\reportng-1.1.4.jar:D:\FrontStream_Final\FrontStream_project\lib\saxon-8.7.jar:D:\FrontStream_Final\FrontStream_project\lib\selenium-java-2.46.0-srcs.jar:D:\FrontStream_Final\FrontStream_project\lib\selenium-java-2.46.0.jar:D:\FrontStream_Final\FrontStream_project\lib\selenium-java-client-driver-tests.jar:D:\FrontStream_Final\FrontStream_project\lib\selenium-java-client-driver.jar:D:\FrontStream_Final\FrontStream_project\lib\selenium-server-standalone-2.46.0.jar:D:\FrontStream_Final\FrontStream_project\lib\sikuli-api-1.0.2-standalone.jar:D:\FrontStream_Final\FrontStream_project\lib\slf4j-api-1.7.7.jar:D:\FrontStream_Final\FrontStream_project\lib\slf4j-log4j12-1.7.7.jar:D:\FrontStream_Final\FrontStream_project\lib\snakeyaml-1.6.jar:D:\FrontStream_Final\FrontStream_project\lib\testng-6.8.7-sources.jar:D:\FrontStream_Final\FrontStream_project\lib\tika-core-1.5.jar:D:\FrontStream_Final\FrontStream_project\lib\velocity-dep-1.4.jar:D:\FrontStream_Final\FrontStream_project\lib\xeger-1.0-SNAPSHOT.jar:D:\FrontStream_Final\FrontStream_project\lib\xmlbeans-2.3.0.jar
+     [echo] CLASSPATH set....
+setClassPath:  duration 0 seconds
+
+loadTestNG:
+     [echo] TestNG loading........
+loadTestNG:  duration 0 seconds
+
+Ant-TryCatch:
+Ant-TryCatch:  duration 0 seconds
+
+runTests:
+     [echo] Running TestNG Suite file.............
+   [testng] Executing 'C:\Program Files\Java\jdk1.8.0_20\jre\bin\java.exe' with arguments:
+'-javaagent:D:\FrontStream_Final\FrontStream_project/lib/aspectjweaver-1.8.4.jar'
+'-ea'
+'-Dorg.uncommons.reportng.title=Sample Report'
+'-classpath'
+'D:\FrontStream_Final\FrontStream_project;D:\FrontStream_Final\FrontStream_project\lib\Decoder.jar;D:\FrontStream_Final\FrontStream_project\lib\FastInfoset-1.2.12.jar;D:\FrontStream_Final\FrontStream_project\lib\Fillo-1.6.jar;D:\FrontStream_Final\FrontStream_project\lib\activation.jar;D:\FrontStream_Final\FrontStream_project\lib\allure-java-adaptor-api-1.4.0.jar;D:\FrontStream_Final\FrontStream_project\lib\allure-java-annotations-1.4.0.jar;D:\FrontStream_Final\FrontStream_project\lib\allure-java-aspects-1.4.0.jar;D:\FrontStream_Final\FrontStream_project\lib\allure-model-1.4.0.jar;D:\FrontStream_Final\FrontStream_project\lib\allure-testng-adaptor-1.4.0-javadoc.jar;D:\FrontStream_Final\FrontStream_project\lib\allure-testng-adaptor-1.4.0-sources.jar;D:\FrontStream_Final\FrontStream_project\lib\allure-testng-adaptor-1.4.0.jar;D:\FrontStream_Final\FrontStream_project\lib\ant-contrib-0.6.jar;D:\FrontStream_Final\FrontStream_project\lib\aspectjrt-1.8.4.jar;D:\FrontStream_Final\FrontStream_project\lib\aspectjweaver-1.8.4-sources.jar;D:\FrontStream_Final\FrontStream_project\lib\aspectjweaver-1.8.4.jar;D:\FrontStream_Final\FrontStream_project\lib\automaton.jar;D:\FrontStream_Final\FrontStream_project\lib\bsh-2.0b4.jar;D:\FrontStream_Final\FrontStream_project\lib\commons-beanutils-core-1.8.3.jar;D:\FrontStream_Final\FrontStream_project\lib\commons-configuration-1.9.jar;D:\FrontStream_Final\FrontStream_project\lib\commons-lang-2.6.jar;D:\FrontStream_Final\FrontStream_project\lib\commons-logging-1.1.1.jar;D:\FrontStream_Final\FrontStream_project\lib\dom4j-full.jar;D:\FrontStream_Final\FrontStream_project\lib\fontbox-1.8.8.jar;D:\FrontStream_Final\FrontStream_project\lib\guice-3.0.jar;D:\FrontStream_Final\FrontStream_project\lib\hamcrest-core-1.3.jar;D:\FrontStream_Final\FrontStream_project\lib\istack-commons-runtime-2.16.jar;D:\FrontStream_Final\FrontStream_project\lib\javacsv.jar;D:\FrontStream_Final\FrontStream_project\lib\jaxb-api-2.2.7.jar;D:\FrontStream_Final\FrontStream_project\lib\jaxb-core-2.2.7.jar;D:\FrontStream_Final\FrontStream_project\lib\jaxb-impl-2.2.7.jar;D:\FrontStream_Final\FrontStream_project\lib\jaxb2-basics-runtime-0.6.5.jar;D:\FrontStream_Final\FrontStream_project\lib\jcommander-1.27.jar;D:\FrontStream_Final\FrontStream_project\lib\jdom-2.0.5.jar;D:\FrontStream_Final\FrontStream_project\lib\json-simple.jar;D:\FrontStream_Final\FrontStream_project\lib\jsr173_api-1.0.jar;D:\FrontStream_Final\FrontStream_project\lib\log4j-1.2.17.jar;D:\FrontStream_Final\FrontStream_project\lib\mail.jar;D:\FrontStream_Final\FrontStream_project\lib\monte-screenrecorder.jar;D:\FrontStream_Final\FrontStream_project\lib\mysql-connector-java-5.1.18-bin.jar;D:\FrontStream_Final\FrontStream_project\lib\pdfbox-1.8.8.jar;D:\FrontStream_Final\FrontStream_project\lib\poi-3.9-20121203.jar;D:\FrontStream_Final\FrontStream_project\lib\poi-ooxml-3.9-20121203.jar;D:\FrontStream_Final\FrontStream_project\lib\poi-ooxml-schemas-3.9-20121203.jar;D:\FrontStream_Final\FrontStream_project\lib\properties-loader-1.5.jar;D:\FrontStream_Final\FrontStream_project\lib\reportng-1.1.4.jar;D:\FrontStream_Final\FrontStream_project\lib\saxon-8.7.jar;D:\FrontStream_Final\FrontStream_project\lib\selenium-java-2.46.0-srcs.jar;D:\FrontStream_Final\FrontStream_project\lib\selenium-java-2.46.0.jar;D:\FrontStream_Final\FrontStream_project\lib\selenium-java-client-driver-tests.jar;D:\FrontStream_Final\FrontStream_project\lib\selenium-java-client-driver.jar;D:\FrontStream_Final\FrontStream_project\lib\selenium-server-standalone-2.46.0.jar;D:\FrontStream_Final\FrontStream_project\lib\sikuli-api-1.0.2-standalone.jar;D:\FrontStream_Final\FrontStream_project\lib\slf4j-api-1.7.7.jar;D:\FrontStream_Final\FrontStream_project\lib\slf4j-log4j12-1.7.7.jar;D:\FrontStream_Final\FrontStream_project\lib\snakeyaml-1.6.jar;D:\FrontStream_Final\FrontStream_project\lib\testng-6.8.7-sources.jar;D:\FrontStream_Final\FrontStream_project\lib\tika-core-1.5.jar;D:\FrontStream_Final\FrontStream_project\lib\velocity-dep-1.4.jar;D:\FrontStream_Final\FrontStream_project\lib\xeger-1.0-SNAPSHOT.jar;D:\FrontStream_Final\FrontStream_project\lib\xmlbeans-2.3.0.jar;D:\FrontStream_Final\FrontStream_project\bin\build'
+'org.testng.TestNG'
+'@C:\Users\Admin\AppData\Local\Temp\testng7449967623345733441'
+
+The ' characters around the executable and arguments are
+not part of the command.
+   [testng] [TestNG] Running:
+   [testng]   D:\FrontStream_Final\FrontStream_project\TestNGSuites\TestNG.xml
+   [testng] 
+   [testng]  INFO 6:25 PM  beforeSuite - <h2>--------------------SuiteRunner Log-------------------------<h2>
+   [testng] GUI
+   [testng]  INFO 6:25 PM  initiateDriver - Browser name present in config file :Chrome
+   [testng]  INFO 6:25 PM  initiateDriver - -----------------STARTED RUNNING SELENIUM TESTS ON LOCAL MACHINE------------------
+   [testng]  INFO 6:25 PM  getBrowserInstance - The Browser Name is provided as Chrome
+   [testng]  INFO 6:25 PM  initChromeDriver - Launching google chrome with new profile..
+   [testng]  INFO 6:25 PM  initChromeDriver - chrome driver initialized..
+   [testng] Starting ChromeDriver 2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961) on port 39741
+   [testng] Only local connections are allowed.
+   [testng]  INFO 6:25 PM  initiateDriver - what driver is running? chrome
+   [testng]  INFO 6:25 PM  initializeBaseSetup - Initiated Webdriver...
+   [testng]  INFO 6:25 PM  beforeNavigateTo - Before navigating to url printing the browser associated capabilities
+   [testng]  INFO 6:25 PM  afterNavigateTo - WebDriver has navigated to:'http://qa-accountingapi.firstgiving.com/login'
+   [testng]  INFO 6:25 PM  waitForPageToLoad - Waiting for page to be loaded...
+   [testng] . INFO 6:25 PM  onTestStart - <h2>**************CURRENTLY RUNNING TEST************ tc_AccountingAPI_001_testProcessDonations</h2>
+   [testng]  INFO 6:25 PM  isElementPresent - Waiting for presence of element By.id: postData
+   [testng]  INFO 6:25 PM  isElementPresent - Element By.id: postData is displayed
+   [testng]  INFO 6:25 PM  isElementPresent - Waiting for presence of element By.id: UserName
+   [testng]  INFO 6:25 PM  isElementPresent - Element By.id: UserName is displayed
+   [testng]  INFO 6:25 PM  beforeChangeValueOf - Value of the: id: UserName before any changes made
+   [testng]  INFO 6:25 PM  afterChangeValueOf - Value of element after change:  id: UserName
+   [testng]  INFO 6:25 PM  beforeChangeValueOf - Value of the: id: UserName before any changes made
+   [testng]  INFO 6:25 PM  afterChangeValueOf - Value of element after change:  id: UserName
+   [testng]  INFO 6:25 PM  safeClearAndType - Cleared the field and entered - 'firstgiving\qapilot in the element - By.id: UserName
+   [testng]  INFO 6:25 PM  isElementPresent - Waiting for presence of element By.id: Password
+   [testng]  INFO 6:25 PM  isElementPresent - Element By.id: Password is displayed
+   [testng]  INFO 6:25 PM  beforeChangeValueOf - Value of the: id: Password before any changes made
+   [testng]  INFO 6:25 PM  afterChangeValueOf - Value of element after change:  id: Password
+   [testng]  INFO 6:25 PM  safeTypePassword - Entered encripted password - '9a2/EXhQ/E8HiGzO624JYQ== in the password field - By.id: Password
+   [testng]  INFO 6:25 PM  waitUntilClickable - Waiting until element By.id: postData is clickable
+   [testng]  INFO 6:25 PM  waitUntilClickable - Element By.id: postData is displayed and is clickable
+   [testng]  INFO 6:25 PM  beforeClickOn - Trying to click on:  id: postData
+   [testng]  INFO 6:26 PM  afterClickOn - Clicked on:  id: postData
+   [testng]  INFO 6:26 PM  safeClick - Clicked on the element By.id: postData
+   [testng]  INFO 6:26 PM  waitForPageToLoad - Waiting for page to be loaded...
+   [testng]  INFO 6:26 PM  waitUntilClickable - Waiting until element By.linkText: Go To Disbursement is clickable
+   [testng]  INFO 6:26 PM  waitUntilClickable - Element By.linkText: Go To Disbursement is displayed and is clickable
+   [testng]  INFO 6:26 PM  beforeClickOn - Trying to click on:  link text: Go To Disbursement
+   [testng]  INFO 6:26 PM  afterClickOn - Clicked on:  link text: Go To Disbursement
+   [testng]  INFO 6:26 PM  safeClick - Clicked on the element By.linkText: Go To Disbursement
+   [testng]  INFO 6:26 PM  waitForPageToLoad - Waiting for page to be loaded...
+   [testng]  INFO 6:26 PM  isElementPresent - Waiting for presence of element By.id: settlementFile
+   [testng]  INFO 6:26 PM  isElementPresent - Element By.id: settlementFile is displayed
+   [testng]  INFO 6:26 PM  beforeChangeValueOf - Value of the: id: settlementFile before any changes made
+   [testng]  INFO 6:26 PM  afterChangeValueOf - Value of element after change:  id: settlementFile
+   [testng]  INFO 6:26 PM  uploadFile - Entered - 'D:\FrontStream_Final\FrontStream_project\Data\disbursementTest.csv in the element - By.id: settlementFile
+   [testng]  INFO 6:26 PM  waitUntilClickable - Waiting until element By.id: postData is clickable
+   [testng]  INFO 6:26 PM  waitUntilClickable - Element By.id: postData is displayed and is clickable
+   [testng]  INFO 6:26 PM  beforeClickOn - Trying to click on:  id: postData
+   [testng]  INFO 6:26 PM  afterClickOn - Clicked on:  id: postData
+   [testng]  INFO 6:26 PM  safeClick - Clicked on the element By.id: postData
+   [testng]  INFO 6:26 PM  waitForPageToLoad - Waiting for page to be loaded...
+   [testng]  INFO 6:26 PM  isElementPresent - Waiting for presence of element By.xpath: //table[@id='myTable']/tbody/tr[1]/td[1]
+   [testng]  INFO 6:26 PM  isElementPresent - Element By.xpath: //table[@id='myTable']/tbody/tr[1]/td[1] is displayed
+   [testng]  INFO 6:26 PM  isElementPresent - Waiting for presence of element By.xpath: //table[@id='myTable']/tbody/tr[3]/td[1]
+   [testng]  INFO 6:26 PM  isElementPresent - Element By.xpath: //table[@id='myTable']/tbody/tr[3]/td[1] is displayed
+   [testng]  INFO 6:26 PM  isElementPresent - Waiting for presence of element By.xpath: //table[@id='myTable']/tbody/tr[1]/td[2]
+   [testng]  INFO 6:26 PM  isElementPresent - Element By.xpath: //table[@id='myTable']/tbody/tr[1]/td[2] is displayed
+   [testng]  INFO 6:26 PM  isElementPresent - Waiting for presence of element By.xpath: //table[@id='myTable']/tbody/tr[3]/td[2]
+   [testng]  INFO 6:26 PM  isElementPresent - Element By.xpath: //table[@id='myTable']/tbody/tr[3]/td[2] is displayed
+   [testng]  INFO 6:26 PM  isElementPresent - Waiting for presence of element By.xpath: //table[@id='myTable']/tbody/tr[1]/td[3]
+   [testng]  INFO 6:26 PM  isElementPresent - Element By.xpath: //table[@id='myTable']/tbody/tr[1]/td[3] is displayed
+   [testng]  INFO 6:26 PM  isElementPresent - Waiting for presence of element By.xpath: //table[@id='myTable']/tbody/tr[3]/td[3]
+   [testng]  INFO 6:26 PM  isElementPresent - Element By.xpath: //table[@id='myTable']/tbody/tr[3]/td[3] is displayed
+   [testng]  INFO 6:26 PM  isElementPresent - Waiting for presence of element By.xpath: //table[@id='myTable']/tbody/tr[1]/td[4]
+   [testng]  INFO 6:26 PM  isElementPresent - Element By.xpath: //table[@id='myTable']/tbody/tr[1]/td[4] is displayed
+   [testng]  INFO 6:26 PM  isElementPresent - Waiting for presence of element By.xpath: //table[@id='myTable']/tbody/tr[3]/td[4]
+   [testng]  INFO 6:26 PM  isElementPresent - Element By.xpath: //table[@id='myTable']/tbody/tr[3]/td[4] is displayed
+   [testng]  INFO 6:26 PM  onTestSuccess - ###############################################################
+   [testng]  INFO 6:26 PM  onTestSuccess - SUCCESS ---------tc_AccountingAPI_001_testProcessDonations has passed-----------------
+   [testng]  INFO 6:26 PM  onTestSuccess - ###############################################################
+   [testng] Sep 16, 2015 6:26:39 PM org.openqa.selenium.os.UnixProcess$SeleniumWatchDog destroyHarder
+   [testng] INFO: Command failed to close cleanly. Destroying forcefully (v2). org.openqa.selenium.os.UnixProcess$SeleniumWatchDog@c4aed1
+   [testng] GUI
+   [testng]  INFO 6:26 PM  initiateDriver - Browser name present in config file :Chrome
+   [testng]  INFO 6:26 PM  initiateDriver - -----------------STARTED RUNNING SELENIUM TESTS ON LOCAL MACHINE------------------
+   [testng]  INFO 6:26 PM  getBrowserInstance - The Browser Name is provided as Chrome
+   [testng]  INFO 6:26 PM  initChromeDriver - Launching google chrome with new profile..
+   [testng]  INFO 6:26 PM  initChromeDriver - chrome driver initialized..
+   [testng] Starting ChromeDriver 2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961) on port 41510
+   [testng] Only local connections are allowed.
+   [testng]  INFO 6:26 PM  initiateDriver - what driver is running? chrome
+   [testng]  INFO 6:26 PM  initializeBaseSetup - Initiated Webdriver...
+   [testng]  INFO 6:26 PM  beforeNavigateTo - Before navigating to url printing the browser associated capabilities
+   [testng]  INFO 6:27 PM  afterNavigateTo - WebDriver has navigated to:'https://qa.firstgiving.com/UI/Pages/NPO/Login.aspx'
+   [testng]  INFO 6:27 PM  waitForPageToLoad - Waiting for page to be loaded...
+   [testng] . INFO 6:27 PM  onTestStart - <h2>**************CURRENTLY RUNNING TEST************ tc_001_createAnEventWithPaidRegistration</h2>
+   [testng]  INFO 6:27 PM  isElementPresent - Waiting for presence of element By.id: userName
+   [testng]  INFO 6:27 PM  isElementPresent - Element By.id: userName is displayed
+   [testng]  INFO 6:27 PM  beforeChangeValueOf - Value of the: id: userName before any changes made
+   [testng]  INFO 6:27 PM  afterChangeValueOf - Value of element after change:  id: userName
+   [testng]  INFO 6:27 PM  safeType - Entered - 'firstgiving\qapilot in the element - By.id: userName
+   [testng]  INFO 6:27 PM  isElementPresent - Waiting for presence of element By.id: password
+   [testng]  INFO 6:27 PM  isElementPresent - Element By.id: password is displayed
+   [testng]  INFO 6:27 PM  beforeChangeValueOf - Value of the: id: password before any changes made
+   [testng]  INFO 6:27 PM  afterChangeValueOf - Value of element after change:  id: password
+   [testng]  INFO 6:27 PM  safeTypePassword - Entered encripted password - '9a2/EXhQ/E8HiGzO624JYQ== in the password field - By.id: password
+   [testng]  INFO 6:27 PM  waitUntilClickable - Waiting until element By.id: LoginButton is clickable
+   [testng]  INFO 6:27 PM  waitUntilClickable - Element By.id: LoginButton is displayed and is clickable
+   [testng]  INFO 6:27 PM  beforeClickOn - Trying to click on:  id: LoginButton
+   [testng]  INFO 6:27 PM  afterClickOn - Clicked on:  id: LoginButton
+   [testng]  INFO 6:27 PM  safeClick - Clicked on the element By.id: LoginButton
+   [testng]  INFO 6:27 PM  waitForJQueryProcessing - Waiting ajax processing to complete..
+   [testng] true
+   [testng]  INFO 6:27 PM  isElementPresent - Waiting for presence of element By.id: ctl00_ctl00_cphMainSection_cphMain_tbFundraiserId
+   [testng]  INFO 6:27 PM  isElementPresent - Element By.id: ctl00_ctl00_cphMainSection_cphMain_tbFundraiserId is displayed
+   [testng]  INFO 6:27 PM  beforeChangeValueOf - Value of the: id: ctl00_ctl00_cphMainSection_cphMain_tbFundraiserId before any changes made
+   [testng]  INFO 6:27 PM  afterChangeValueOf - Value of element after change:  id: ctl00_ctl00_cphMainSection_cphMain_tbFundraiserId
+   [testng]  INFO 6:27 PM  safeType - Entered - '1105 in the element - By.id: ctl00_ctl00_cphMainSection_cphMain_tbFundraiserId
+   [testng]  INFO 6:27 PM  waitUntilClickable - Waiting until element By.id: ctl00_ctl00_cphMainSection_cphMain_lbSetFundraiserId is clickable
+   [testng]  INFO 6:27 PM  waitUntilClickable - Element By.id: ctl00_ctl00_cphMainSection_cphMain_lbSetFundraiserId is displayed and is clickable
+   [testng]  INFO 6:27 PM  beforeClickOn - Trying to click on:  id: ctl00_ctl00_cphMainSection_cphMain_lbSetFundraiserId
+   [testng]  INFO 6:27 PM  afterClickOn - Clicked on:  id: ctl00_ctl00_cphMainSection_cphMain_lbSetFundraiserId
+   [testng]  INFO 6:27 PM  safeClick - Clicked on the element By.id: ctl00_ctl00_cphMainSection_cphMain_lbSetFundraiserId
+   [testng]  INFO 6:27 PM  waitForJQueryProcessing - Waiting ajax processing to complete..
+   [testng] true
+   [testng]  INFO 6:27 PM  waitUntilClickable - Waiting until element By.xpath: //a[@href='Events/Events.aspx'] is clickable
+   [testng]  INFO 6:27 PM  waitUntilClickable - Element By.xpath: //a[@href='Events/Events.aspx'] is displayed and is clickable
+   [testng]  INFO 6:27 PM  beforeClickOn - Trying to click on:  xpath: //a[@href='Events/Events.aspx']
+   [testng]  INFO 6:27 PM  afterClickOn - Clicked on:  xpath: //a[@href='Events/Events.aspx']
+   [testng]  INFO 6:27 PM  safeClick - Clicked on the element By.xpath: //a[@href='Events/Events.aspx']
+   [testng]  INFO 6:27 PM  waitForJQueryProcessing - Waiting ajax processing to complete..
+   [testng] true
+   [testng]  INFO 6:27 PM  waitUntilClickable - Waiting until element By.id: createEventModal is clickable
+   [testng]  INFO 6:27 PM  waitUntilClickable - Element By.id: createEventModal is displayed and is clickable
+   [testng]  INFO 6:27 PM  beforeClickOn - Trying to click on:  id: createEventModal
+   [testng]  INFO 6:27 PM  afterClickOn - Clicked on:  id: createEventModal
+   [testng]  INFO 6:27 PM  safeClick - Clicked on the element By.id: createEventModal
+   [testng]  INFO 6:27 PM  waitUntilClickable - Waiting until element By.id: event is clickable
+   [testng]  INFO 6:27 PM  waitUntilClickable - Element By.id: event is displayed and is clickable
+   [testng]  INFO 6:27 PM  beforeClickOn - Trying to click on:  id: event
+   [testng]  INFO 6:27 PM  afterClickOn - Clicked on:  id: event
+   [testng]  INFO 6:27 PM  safeClick - Clicked on the element By.id: event
+   [testng]  INFO 6:27 PM  isElementPresent - Waiting for presence of element By.xpath: //select[@name='designId']
+   [testng]  INFO 6:27 PM  isElementPresent - Element By.xpath: //select[@name='designId'] is displayed
+   [testng]  INFO 6:27 PM  beforeClickOn - Trying to click on:  xpath: //select[@name='designId']]] -> xpath: .//option[normalize-space(.) = "Organization for Autism Research"]
+   [testng]  INFO 6:27 PM  afterClickOn - Clicked on:  xpath: //select[@name='designId']]] -> xpath: .//option[normalize-space(.) = "Organization for Autism Research"]
+   [testng]  INFO 6:27 PM  safeSelectOptionInDropDownByVisibleText - Selected option from By.xpath: //select[@name='designId'] dropdown
+   [testng]  INFO 6:27 PM  waitUntilClickable - Waiting until element By.id: createEvent is clickable
+   [testng]  INFO 6:27 PM  waitUntilClickable - Element By.id: createEvent is displayed and is clickable
+   [testng]  INFO 6:27 PM  beforeClickOn - Trying to click on:  id: createEvent
+   [testng]  INFO 6:27 PM  afterClickOn - Clicked on:  id: createEvent
+   [testng]  INFO 6:27 PM  safeClick - Clicked on the element By.id: createEvent
+   [testng]  INFO 6:27 PM  waitForJQueryProcessing - Waiting ajax processing to complete..
+   [testng] true
+   [testng]  INFO 6:28 PM  isElementPresent - Waiting for presence of element By.id: eventName
+   [testng]  INFO 6:28 PM  isElementPresent - Element By.id: eventName is displayed
+   [testng]  INFO 6:28 PM  beforeChangeValueOf - Value of the: id: eventName before any changes made
+   [testng]  INFO 6:28 PM  afterChangeValueOf - Value of element after change:  id: eventName
+   [testng]  INFO 6:28 PM  safeType - Entered - 'Registration1442408274 in the element - By.id: eventName
+   [testng]  INFO 6:28 PM  isElementPresent - Waiting for presence of element By.id: designId
+   [testng]  INFO 6:28 PM  isElementPresent - Element By.id: designId is displayed
+   [testng]  INFO 6:28 PM  beforeClickOn - Trying to click on:  id: designId]] -> xpath: .//option[normalize-space(.) = "Organization for Autism Research"]
+   [testng]  INFO 6:28 PM  afterClickOn - Clicked on:  id: designId]] -> xpath: .//option[normalize-space(.) = "Organization for Autism Research"]
+   [testng]  INFO 6:28 PM  safeSelectOptionInDropDownByVisibleText - Selected option from By.id: designId dropdown
+   [testng]  INFO 6:28 PM  isElementPresent - Waiting for presence of element By.id: categoryId
+   [testng]  INFO 6:28 PM  isElementPresent - Element By.id: categoryId is displayed
+   [testng]  INFO 6:28 PM  beforeClickOn - Trying to click on:  id: categoryId]] -> xpath: .//option[normalize-space(.) = "Anniversaries"]
+   [testng]  INFO 6:28 PM  afterClickOn - Clicked on:  id: categoryId]] -> xpath: .//option[normalize-space(.) = "Anniversaries"]
+   [testng]  INFO 6:28 PM  safeSelectOptionInDropDownByVisibleText - Selected option from By.id: categoryId dropdown
+   [testng]  INFO 6:28 PM  isElementPresent - Waiting for presence of element By.id: location
+   [testng]  INFO 6:28 PM  isElementPresent - Element By.id: location is displayed
+   [testng]  INFO 6:28 PM  beforeChangeValueOf - Value of the: id: location before any changes made
+   [testng]  INFO 6:28 PM  afterChangeValueOf - Value of element after change:  id: location
+   [testng]  INFO 6:28 PM  safeType - Entered - 'My Venue in the element - By.id: location
+   [testng]  INFO 6:28 PM  isElementPresent - Waiting for presence of element By.id: addressLine
+   [testng]  INFO 6:28 PM  isElementPresent - Element By.id: addressLine is displayed
+   [testng]  INFO 6:28 PM  beforeChangeValueOf - Value of the: id: addressLine before any changes made
+   [testng]  INFO 6:28 PM  afterChangeValueOf - Value of element after change:  id: addressLine
+   [testng]  INFO 6:28 PM  safeType - Entered - '215 Spadina in the element - By.id: addressLine
+   [testng]  INFO 6:28 PM  isElementPresent - Waiting for presence of element By.id: city
+   [testng]  INFO 6:28 PM  isElementPresent - Element By.id: city is displayed
+   [testng]  INFO 6:28 PM  beforeChangeValueOf - Value of the: id: city before any changes made
+   [testng]  INFO 6:28 PM  afterChangeValueOf - Value of element after change:  id: city
+   [testng]  INFO 6:28 PM  safeType - Entered - 'Toronto in the element - By.id: city
+   [testng]  INFO 6:28 PM  isElementPresent - Waiting for presence of element By.id: state
+   [testng]  INFO 6:28 PM  isElementPresent - Element By.id: state is displayed
+   [testng]  INFO 6:28 PM  beforeClickOn - Trying to click on:  id: state]] -> xpath: .//option[normalize-space(.) = "Georgia"]
+   [testng]  INFO 6:28 PM  afterClickOn - Clicked on:  id: state]] -> xpath: .//option[normalize-space(.) = "Georgia"]
+   [testng]  INFO 6:28 PM  safeSelectOptionInDropDownByVisibleText - Selected option from By.id: state dropdown
+   [testng]  INFO 6:28 PM  isElementPresent - Waiting for presence of element By.id: postalCode
+   [testng]  INFO 6:28 PM  isElementPresent - Element By.id: postalCode is displayed
+   [testng]  INFO 6:28 PM  beforeChangeValueOf - Value of the: id: postalCode before any changes made
+   [testng]  INFO 6:28 PM  afterChangeValueOf - Value of element after change:  id: postalCode
+   [testng]  INFO 6:28 PM  safeType - Entered - '90210 in the element - By.id: postalCode
+   [testng]  INFO 6:28 PM  waitUntilClickable - Waiting until element By.id: startDate is clickable
+   [testng]  INFO 6:28 PM  waitUntilClickable - Element By.id: startDate is displayed and is clickable
+   [testng]  INFO 6:28 PM  beforeClickOn - Trying to click on:  id: startDate
+   [testng]  INFO 6:28 PM  afterClickOn - Clicked on:  id: startDate
+   [testng]  INFO 6:28 PM  safeClick - Clicked on the element By.id: startDate
+   [testng]  INFO 6:28 PM  waitUntilClickable - Waiting until element By.xpath: //span[@class='ui-icon ui-icon-circle-triangle-e'] is clickable
+   [testng]  INFO 6:28 PM  waitUntilClickable - Element By.xpath: //span[@class='ui-icon ui-icon-circle-triangle-e'] is displayed and is clickable
+   [testng]  INFO 6:28 PM  beforeClickOn - Trying to click on:  xpath: //span[@class='ui-icon ui-icon-circle-triangle-e']
+   [testng]  INFO 6:28 PM  afterClickOn - Clicked on:  xpath: //span[@class='ui-icon ui-icon-circle-triangle-e']
+   [testng]  INFO 6:28 PM  safeClick - Clicked on the element By.xpath: //span[@class='ui-icon ui-icon-circle-triangle-e']
+   [testng]  INFO 6:28 PM  waitUntilClickable - Waiting until element By.linkText: 1 is clickable
+   [testng]  INFO 6:28 PM  waitUntilClickable - Element By.linkText: 1 is displayed and is clickable
+   [testng]  INFO 6:28 PM  beforeClickOn - Trying to click on:  link text: 1
+   [testng]  INFO 6:28 PM  afterClickOn - Clicked on:  link text: 1
+   [testng]  INFO 6:28 PM  safeClick - Clicked on the element By.linkText: 1
+   [testng]  INFO 6:28 PM  isElementPresent - Waiting for presence of element By.id: phoneNumber
+   [testng]  INFO 6:28 PM  isElementPresent - Element By.id: phoneNumber is displayed
+   [testng]  INFO 6:28 PM  beforeChangeValueOf - Value of the: id: phoneNumber before any changes made
+   [testng]  INFO 6:28 PM  afterChangeValueOf - Value of element after change:  id: phoneNumber
+   [testng]  INFO 6:28 PM  safeType - Entered - '4167950876 in the element - By.id: phoneNumber
+   [testng]  INFO 6:28 PM  isElementPresent - Waiting for presence of element By.id: emailAddress
+   [testng]  INFO 6:28 PM  isElementPresent - Element By.id: emailAddress is displayed
+   [testng]  INFO 6:28 PM  beforeChangeValueOf - Value of the: id: emailAddress before any changes made
+   [testng]  INFO 6:28 PM  afterChangeValueOf - Value of element after change:  id: emailAddress
+   [testng]  INFO 6:28 PM  beforeChangeValueOf - Value of the: id: emailAddress before any changes made
+   [testng]  INFO 6:28 PM  afterChangeValueOf - Value of element after change:  id: emailAddress
+   [testng]  INFO 6:28 PM  safeClearAndType - Cleared the field and entered - 'cknight@artez.com in the element - By.id: emailAddress
+   [testng]  INFO 6:28 PM  waitUntilClickable - Waiting until element By.id: cke_15_label is clickable
+   [testng]  INFO 6:28 PM  waitUntilClickable - Element By.id: cke_15_label is displayed and is clickable
+   [testng]  INFO 6:28 PM  beforeClickOn - Trying to click on:  id: cke_15_label
+   [testng]  INFO 6:28 PM  afterClickOn - Clicked on:  id: cke_15_label
+   [testng]  INFO 6:28 PM  safeClick - Clicked on the element By.id: cke_15_label
+   [testng]  INFO 6:28 PM  waitUntilClickable - Waiting until element By.xpath: //textarea[@role='textbox'] is clickable
+   [testng]  INFO 6:28 PM  waitUntilClickable - Element By.xpath: //textarea[@role='textbox'] is displayed and is clickable
+   [testng]  INFO 6:28 PM  isElementPresent - Waiting for presence of element By.xpath: //textarea[@role='textbox']
+   [testng]  INFO 6:28 PM  isElementPresent - Element By.xpath: //textarea[@role='textbox'] is displayed
+   [testng]  INFO 6:28 PM  beforeChangeValueOf - Value of the: xpath: //textarea[@role='textbox'] before any changes made
+   [testng]  INFO 6:28 PM  afterChangeValueOf - Value of element after change:  xpath: //textarea[@role='textbox']
+   [testng]  INFO 6:28 PM  safeType - Entered - 'Registration Description in the element - By.xpath: //textarea[@role='textbox']
+   [testng]  INFO 6:28 PM  waitUntilClickable - Waiting until element By.id: customRegistration is clickable
+   [testng]  INFO 6:28 PM  waitUntilClickable - Element By.id: customRegistration is displayed and is clickable
+   [testng]  INFO 6:28 PM  beforeClickOn - Trying to click on:  id: customRegistration
+   [testng]  INFO 6:28 PM  afterClickOn - Clicked on:  id: customRegistration
+   [testng]  INFO 6:28 PM  safeSelectRadioButton - Clicked on element By.id: customRegistration
+   [testng]  INFO 6:28 PM  isElementPresent - Waiting for presence of element By.id: registrationTypes_0__Name
+   [testng]  INFO 6:28 PM  isElementPresent - Element By.id: registrationTypes_0__Name is displayed
+   [testng]  INFO 6:28 PM  beforeChangeValueOf - Value of the: id: registrationTypes_0__Name before any changes made
+   [testng]  INFO 6:28 PM  afterChangeValueOf - Value of element after change:  id: registrationTypes_0__Name
+   [testng]  INFO 6:28 PM  safeType - Entered - 'Registration in the element - By.id: registrationTypes_0__Name
+   [testng]  INFO 6:28 PM  isElementPresent - Waiting for presence of element By.id: registrationTypes_0__Description
+   [testng]  INFO 6:28 PM  isElementPresent - Element By.id: registrationTypes_0__Description is displayed
+   [testng]  INFO 6:28 PM  beforeChangeValueOf - Value of the: id: registrationTypes_0__Description before any changes made
+   [testng]  INFO 6:28 PM  afterChangeValueOf - Value of element after change:  id: registrationTypes_0__Description
+   [testng]  INFO 6:28 PM  safeType - Entered - 'Registration Description in the element - By.id: registrationTypes_0__Description
+   [testng]  INFO 6:28 PM  isElementPresent - Waiting for presence of element By.id: registrationTypes_0__Amount
+   [testng]  INFO 6:28 PM  isElementPresent - Element By.id: registrationTypes_0__Amount is displayed
+   [testng]  INFO 6:28 PM  beforeChangeValueOf - Value of the: id: registrationTypes_0__Amount before any changes made
+   [testng]  INFO 6:28 PM  afterChangeValueOf - Value of element after change:  id: registrationTypes_0__Amount
+   [testng]  INFO 6:28 PM  beforeChangeValueOf - Value of the: id: registrationTypes_0__Amount before any changes made
+   [testng]  INFO 6:28 PM  afterChangeValueOf - Value of element after change:  id: registrationTypes_0__Amount
+   [testng]  INFO 6:28 PM  safeClearAndType - Cleared the field and entered - '100 in the element - By.id: registrationTypes_0__Amount
+   [testng]  INFO 6:28 PM  waitUntilClickable - Waiting until element By.xpath: //div[@class='addable addDiscountCode'] is clickable
+   [testng]  INFO 6:28 PM  waitUntilClickable - Element By.xpath: //div[@class='addable addDiscountCode'] is displayed and is clickable
+   [testng]  INFO 6:28 PM  beforeClickOn - Trying to click on:  xpath: //div[@class='addable addDiscountCode']
+   [testng]  INFO 6:28 PM  afterClickOn - Clicked on:  xpath: //div[@class='addable addDiscountCode']
+   [testng]  INFO 6:28 PM  safeClick - Clicked on the element By.xpath: //div[@class='addable addDiscountCode']
+   [testng]  INFO 6:28 PM  isElementPresent - Waiting for presence of element By.id: registrationtypes_0__discountcodes_0__designeventproductdiscountcode
+   [testng]  INFO 6:28 PM  isElementPresent - Element By.id: registrationtypes_0__discountcodes_0__designeventproductdiscountcode is displayed
+   [testng]  INFO 6:28 PM  beforeChangeValueOf - Value of the: id: registrationtypes_0__discountcodes_0__designeventproductdiscountcode before any changes made
+   [testng]  INFO 6:28 PM  afterChangeValueOf - Value of element after change:  id: registrationtypes_0__discountcodes_0__designeventproductdiscountcode
+   [testng]  INFO 6:28 PM  beforeChangeValueOf - Value of the: id: registrationtypes_0__discountcodes_0__designeventproductdiscountcode before any changes made
+   [testng]  INFO 6:28 PM  afterChangeValueOf - Value of element after change:  id: registrationtypes_0__discountcodes_0__designeventproductdiscountcode
+   [testng]  INFO 6:28 PM  safeClearAndType - Cleared the field and entered - ' in the element - By.id: registrationtypes_0__discountcodes_0__designeventproductdiscountcode
+   [testng]  INFO 6:28 PM  isElementPresent - Waiting for presence of element By.id: AllowDirectDonation
+   [testng]  INFO 6:28 PM  isElementPresent - Element By.id: AllowDirectDonation is displayed
+   [testng]  INFO 6:28 PM  beforeClickOn - Trying to click on:  id: AllowDirectDonation
+   [testng]  INFO 6:28 PM  afterClickOn - Clicked on:  id: AllowDirectDonation
+   [testng]  INFO 6:28 PM  isElementPresent - Waiting for presence of element By.id: GroupRegistration
+   [testng]  INFO 6:28 PM  isElementPresent - Element By.id: GroupRegistration is displayed
+   [testng]  INFO 6:28 PM  beforeClickOn - Trying to click on:  id: GroupRegistration
+   [testng]  INFO 6:28 PM  afterClickOn - Clicked on:  id: GroupRegistration
+   [testng]  INFO 6:28 PM  waitUntilClickable - Waiting until element By.id: saveButton is clickable
+   [testng]  INFO 6:28 PM  waitUntilClickable - Element By.id: saveButton is displayed and is clickable
+   [testng]  INFO 6:28 PM  beforeClickOn - Trying to click on:  id: saveButton
+   [testng]  INFO 6:28 PM  afterClickOn - Clicked on:  id: saveButton
+   [testng]  INFO 6:28 PM  safeClick - Clicked on the element By.id: saveButton
+   [testng]  INFO 6:28 PM  waitForPageToLoad - Waiting for page to be loaded...
+   [testng]  INFO 6:28 PM  isElementPresent - Waiting for presence of element By.className: successMessage
+   [testng] ................................................................................................................................................................................................................................................................................................... INFO 6:29 PM  isElementPresent - Element By.className: successMessage was not displayed in time - 60
+   [testng] com.selenium.Sync.isElementPresent(Sync.java:140)
+   [testng] com.selenium.SafeActions.safeGetText(SafeActions.java:1883)
+   [testng] com.page.module.CreatePage.verifySuccessMsg(CreatePage.java:170)
+   [testng] com.testsuite.EventCreation.tc_001_createAnEventWithPaidRegistration(EventCreation.java:72)
+   [testng] sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+   [testng] sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+   [testng] sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+   [testng] java.lang.reflect.Method.invoke(Method.java:483)
+   [testng] org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+   [testng] org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:46)
+   [testng] org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:37)
+   [testng] org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNoExecutor(MethodInvocationHelper.java:240)
+   [testng] org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:229)
+   [testng] org.testng.internal.Invoker.invokeMethod(Invoker.java:724)
+   [testng] org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+   [testng] org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+   [testng] org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+   [testng] org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+   [testng] org.testng.TestRunner.privateRun(TestRunner.java:767)
+   [testng] org.testng.TestRunner.run(TestRunner.java:617)
+   [testng] org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+   [testng] org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+   [testng] org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+   [testng] org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+   [testng] java.util.concurrent.FutureTask.run(FutureTask.java:266)
+   [testng] java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+   [testng] java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+   [testng] java.lang.Thread.run(Thread.java:745)
+   [testng] ERROR 6:29 PM  onTestFailure - xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+   [testng] 
+   [testng] ERROR 6:29 PM  onTestFailure - ERROR ----------tc_001_createAnEventWithPaidRegistration has failed-----------------
+   [testng] ERROR 6:29 PM  onTestFailure - xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+   [testng] 
+   [testng]  INFO 6:29 PM  saveScreenShot - Saving screenshot of current browser window
+   [testng]  INFO 6:29 PM  saveScreenShot - Screenshot created and : Screenshot-1338636220.png
+   [testng] Sep 16, 2015 6:29:22 PM org.openqa.selenium.os.UnixProcess$SeleniumWatchDog destroyHarder
+   [testng] INFO: Command failed to close cleanly. Destroying forcefully (v2). org.openqa.selenium.os.UnixProcess$SeleniumWatchDog@1e7dc7c
+   [testng] GUI
+   [testng]  INFO 6:29 PM  initiateDriver - Browser name present in config file :Chrome
+   [testng]  INFO 6:29 PM  initiateDriver - -----------------STARTED RUNNING SELENIUM TESTS ON LOCAL MACHINE------------------
+   [testng]  INFO 6:29 PM  getBrowserInstance - The Browser Name is provided as Chrome
+   [testng]  INFO 6:29 PM  initChromeDriver - Launching google chrome with new profile..
+   [testng]  INFO 6:29 PM  initChromeDriver - chrome driver initialized..
+   [testng] Starting ChromeDriver 2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961) on port 14183
+   [testng] Only local connections are allowed.
+   [testng]  INFO 6:29 PM  initiateDriver - what driver is running? chrome
+   [testng]  INFO 6:29 PM  initializeBaseSetup - Initiated Webdriver...
+   [testng]  INFO 6:29 PM  beforeNavigateTo - Before navigating to url printing the browser associated capabilities
+   [testng]  INFO 6:29 PM  afterNavigateTo - WebDriver has navigated to:'https://qa.firstgiving.com/UI/Pages/NPO/Login.aspx'
+   [testng]  INFO 6:29 PM  waitForPageToLoad - Waiting for page to be loaded...
+   [testng] . INFO 6:29 PM  onTestStart - <h2>**************CURRENTLY RUNNING TEST************ tc_001_createAnEventWithPaidRegistration</h2>
+   [testng]  INFO 6:29 PM  isElementPresent - Waiting for presence of element By.id: userName
+   [testng]  INFO 6:29 PM  isElementPresent - Element By.id: userName is displayed
+   [testng]  INFO 6:29 PM  beforeChangeValueOf - Value of the: id: userName before any changes made
+   [testng]  INFO 6:29 PM  afterChangeValueOf - Value of element after change:  id: userName
+   [testng]  INFO 6:29 PM  safeType - Entered - 'firstgiving\qapilot in the element - By.id: userName
+   [testng]  INFO 6:29 PM  isElementPresent - Waiting for presence of element By.id: password
+   [testng]  INFO 6:29 PM  isElementPresent - Element By.id: password is displayed
+   [testng]  INFO 6:29 PM  beforeChangeValueOf - Value of the: id: password before any changes made
+   [testng]  INFO 6:29 PM  afterChangeValueOf - Value of element after change:  id: password
+   [testng]  INFO 6:29 PM  safeTypePassword - Entered encripted password - '9a2/EXhQ/E8HiGzO624JYQ== in the password field - By.id: password
+   [testng]  INFO 6:29 PM  waitUntilClickable - Waiting until element By.id: LoginButton is clickable
+   [testng]  INFO 6:29 PM  waitUntilClickable - Element By.id: LoginButton is displayed and is clickable
+   [testng]  INFO 6:29 PM  beforeClickOn - Trying to click on:  id: LoginButton
+   [testng]  INFO 6:29 PM  afterClickOn - Clicked on:  id: LoginButton
+   [testng]  INFO 6:29 PM  safeClick - Clicked on the element By.id: LoginButton
+   [testng]  INFO 6:29 PM  waitForJQueryProcessing - Waiting ajax processing to complete..
+   [testng] true
+   [testng] ERROR 6:29 PM  failnotequals - 
+   [testng] Invalid page/URL. This is not Admin page assertion failed Expected [https://qa.firstgiving.com/UI/Pages/NPO/Admin/Admin.aspx] But Actual [https://qa.firstgiving.com/UI/Pages/NPO/Login.aspx]
+   [testng] ERROR 6:29 PM  onTestFailure - xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+   [testng] 
+   [testng] ERROR 6:29 PM  onTestFailure - ERROR ----------tc_001_createAnEventWithPaidRegistration has failed-----------------
+   [testng] ERROR 6:29 PM  onTestFailure - xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+   [testng] 
+   [testng]  INFO 6:29 PM  saveScreenShot - Saving screenshot of current browser window
+   [testng]  INFO 6:29 PM  saveScreenShot - Screenshot created and : Screenshot-2146816098.png
+   [testng] Sep 16, 2015 6:29:34 PM org.openqa.selenium.os.UnixProcess$SeleniumWatchDog destroyHarder
+   [testng] INFO: Command failed to close cleanly. Destroying forcefully (v2). org.openqa.selenium.os.UnixProcess$SeleniumWatchDog@13502cd
+   [testng] API
+   [testng]  INFO 6:29 PM  onTestStart - <h2>**************CURRENTLY RUNNING TEST************ tc_API_001_DonationAPI</h2>
+   [testng]  INFO 6:29 PM  setRunTimeProperty - set runtime value for Key : pledgeId
+   [testng]  INFO 6:29 PM  setRunTimeProperty - set runtime value for Key : ccNumber
+   [testng]  INFO 6:29 PM  setRunTimeProperty - set runtime value for Key : ccType
+   [testng]  INFO 6:29 PM  setRunTimeProperty - set runtime value for Key : ccExpDateYear
+   [testng]  INFO 6:29 PM  setRunTimeProperty - set runtime value for Key : ccExpDateMonth
+   [testng]  INFO 6:29 PM  setRunTimeProperty - set runtime value for Key : ccCardValidationNum
+   [testng]  INFO 6:29 PM  setRunTimeProperty - set runtime value for Key : billToTitle
+   [testng]  INFO 6:29 PM  setRunTimeProperty - set runtime value for Key : billToFirstName
+   [testng]  INFO 6:29 PM  setRunTimeProperty - set runtime value for Key : billToMiddleName
+   [testng]  INFO 6:29 PM  setRunTimeProperty - set runtime value for Key : billToLastName
+   [testng]  INFO 6:29 PM  setRunTimeProperty - set runtime value for Key : billToAddressLine1
+   [testng]  INFO 6:29 PM  setRunTimeProperty - set runtime value for Key : billToAddressLine2
+   [testng]  INFO 6:29 PM  setRunTimeProperty - set runtime value for Key : billToAddressLine3
+   [testng]  INFO 6:29 PM  setRunTimeProperty - set runtime value for Key : billToCity
+   [testng]  INFO 6:29 PM  setRunTimeProperty - set runtime value for Key : billToState
+   [testng]  INFO 6:29 PM  setRunTimeProperty - set runtime value for Key : billToZip
+   [testng]  INFO 6:29 PM  setRunTimeProperty - set runtime value for Key : billToCountry
+   [testng]  INFO 6:29 PM  setRunTimeProperty - set runtime value for Key : billToEmail
+   [testng]  INFO 6:29 PM  setRunTimeProperty - set runtime value for Key : billToPhone
+   [testng]  INFO 6:29 PM  setRunTimeProperty - set runtime value for Key : remoteAddr
+   [testng]  INFO 6:29 PM  setRunTimeProperty - set runtime value for Key : amount
+   [testng]  INFO 6:29 PM  setRunTimeProperty - set runtime value for Key : currencyCode
+   [testng]  INFO 6:29 PM  setRunTimeProperty - set runtime value for Key : charityId
+   [testng]  INFO 6:29 PM  setRunTimeProperty - set runtime value for Key : eventId
+   [testng]  INFO 6:29 PM  setRunTimeProperty - set runtime value for Key : fundraiserId
+   [testng]  INFO 6:29 PM  setRunTimeProperty - set runtime value for Key : orderId
+   [testng]  INFO 6:29 PM  setRunTimeProperty - set runtime value for Key : description
+   [testng]  INFO 6:29 PM  setRunTimeProperty - set runtime value for Key : reportDonationToTaxAuthority
+   [testng]  INFO 6:29 PM  setRunTimeProperty - set runtime value for Key : personalIdentificationNumber
+   [testng]  INFO 6:29 PM  setRunTimeProperty - set runtime value for Key : donationMessage
+   [testng]  INFO 6:29 PM  getClient - initializing HttpClient
+   [testng]  INFO 6:29 PM  replaceVariablesWithRuntimeProperties - replacing variables
+   [testng]  INFO 6:29 PM  replaceVariablesWithRuntimeProperties - https://qa-api.firstgiving.com/donation/creditcard
+   [testng] false
+   [testng] true
+   [testng] true
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : charityId
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : charityId
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : charityId
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : ccCardValidationNum
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : ccCardValidationNum
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : ccCardValidationNum
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : billToFirstName
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : billToFirstName
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : billToFirstName
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : billToAddressLine3
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : billToAddressLine3
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : billToAddressLine3
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : ccNumber
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : ccNumber
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : ccNumber
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : billToAddressLine2
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : billToAddressLine2
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : billToAddressLine2
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : billToAddressLine1
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : billToAddressLine1
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : billToAddressLine1
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : remoteAddr
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : remoteAddr
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : remoteAddr
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : billToCity
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : billToCity
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : billToCity
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : ccExpDateMonth
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : ccExpDateMonth
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : ccExpDateMonth
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : currencyCode
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : currencyCode
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : currencyCode
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : donationMessage
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : donationMessage
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : donationMessage
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : amount
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : amount
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : amount
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : orderId
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : orderId
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : orderId
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : billToZip
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : billToZip
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : billToZip
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : personalIdentificationNumber
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : personalIdentificationNumber
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : personalIdentificationNumber
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : billToState
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : billToState
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : billToState
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : billToCountry
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : billToCountry
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : billToCountry
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : reportDonationToTaxAuthority
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : reportDonationToTaxAuthority
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : reportDonationToTaxAuthority
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : billToMiddleName
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : billToMiddleName
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : billToMiddleName
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : eventId
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : eventId
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : eventId
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : ccType
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : ccType
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : ccType
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : ccExpDateYear
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : ccExpDateYear
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : ccExpDateYear
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : description
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : description
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : description
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : billToEmail
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : billToEmail
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : billToEmail
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : billToLastName
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : billToLastName
+   [testng]  INFO 6:29 PM  getRunTimeProperty - getting runtime value for Key : billToLastName
+   [testng]  INFO 6:29 PM  getHttpMethod - initialising request type : POST
+   [testng]  INFO 6:29 PM  addHeader - adding headers
+   [testng]  INFO 6:29 PM  execute - Executing : POST Request
+   [testng]  INFO 6:32 PM  verifyStatus - verifying Status code and message
+   [testng]  INFO 6:32 PM  getXmlResponseBody - responseBody :<?xml version="1.0" encoding="utf-8"?><firstGivingDonationApi xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><firstGivingResponse acknowledgement="Success"><transactionId>a-3b5fa85405766d4996dad6</transactionId><donationId>0</donationId></firstGivingResponse></firstGivingDonationApi>
+   [testng] ERROR 6:32 PM  assertTrue - 
+   [testng]  assertion failed ExpectedDonationId is not in valid format actual DonationId :0
+   [testng] ERROR 6:32 PM  onTestFailure - xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+   [testng] 
+   [testng] ERROR 6:32 PM  onTestFailure - ERROR ----------tc_API_001_DonationAPI has failed-----------------
+   [testng] ERROR 6:32 PM  onTestFailure - xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+   [testng] 
+   [testng] API
+   [testng]  INFO 6:32 PM  onTestStart - <h2>**************CURRENTLY RUNNING TEST************ tc_API_001_DonationAPI</h2>
+   [testng]  INFO 6:32 PM  setRunTimeProperty - set runtime value for Key : pledgeId
+   [testng]  INFO 6:32 PM  setRunTimeProperty - set runtime value for Key : ccNumber
+   [testng]  INFO 6:32 PM  setRunTimeProperty - set runtime value for Key : ccType
+   [testng]  INFO 6:32 PM  setRunTimeProperty - set runtime value for Key : ccExpDateYear
+   [testng]  INFO 6:32 PM  setRunTimeProperty - set runtime value for Key : ccExpDateMonth
+   [testng]  INFO 6:32 PM  setRunTimeProperty - set runtime value for Key : ccCardValidationNum
+   [testng]  INFO 6:32 PM  setRunTimeProperty - set runtime value for Key : billToTitle
+   [testng]  INFO 6:32 PM  setRunTimeProperty - set runtime value for Key : billToFirstName
+   [testng]  INFO 6:32 PM  setRunTimeProperty - set runtime value for Key : billToMiddleName
+   [testng]  INFO 6:32 PM  setRunTimeProperty - set runtime value for Key : billToLastName
+   [testng]  INFO 6:32 PM  setRunTimeProperty - set runtime value for Key : billToAddressLine1
+   [testng]  INFO 6:32 PM  setRunTimeProperty - set runtime value for Key : billToAddressLine2
+   [testng]  INFO 6:32 PM  setRunTimeProperty - set runtime value for Key : billToAddressLine3
+   [testng]  INFO 6:32 PM  setRunTimeProperty - set runtime value for Key : billToCity
+   [testng]  INFO 6:32 PM  setRunTimeProperty - set runtime value for Key : billToState
+   [testng]  INFO 6:32 PM  setRunTimeProperty - set runtime value for Key : billToZip
+   [testng]  INFO 6:32 PM  setRunTimeProperty - set runtime value for Key : billToCountry
+   [testng]  INFO 6:32 PM  setRunTimeProperty - set runtime value for Key : billToEmail
+   [testng]  INFO 6:32 PM  setRunTimeProperty - set runtime value for Key : billToPhone
+   [testng]  INFO 6:32 PM  setRunTimeProperty - set runtime value for Key : remoteAddr
+   [testng]  INFO 6:32 PM  setRunTimeProperty - set runtime value for Key : amount
+   [testng]  INFO 6:32 PM  setRunTimeProperty - set runtime value for Key : currencyCode
+   [testng]  INFO 6:32 PM  setRunTimeProperty - set runtime value for Key : charityId
+   [testng]  INFO 6:32 PM  setRunTimeProperty - set runtime value for Key : eventId
+   [testng]  INFO 6:32 PM  setRunTimeProperty - set runtime value for Key : fundraiserId
+   [testng]  INFO 6:32 PM  setRunTimeProperty - set runtime value for Key : orderId
+   [testng]  INFO 6:32 PM  setRunTimeProperty - set runtime value for Key : description
+   [testng]  INFO 6:32 PM  setRunTimeProperty - set runtime value for Key : reportDonationToTaxAuthority
+   [testng]  INFO 6:32 PM  setRunTimeProperty - set runtime value for Key : personalIdentificationNumber
+   [testng]  INFO 6:32 PM  setRunTimeProperty - set runtime value for Key : donationMessage
+   [testng]  INFO 6:32 PM  getClient - initializing HttpClient
+   [testng]  INFO 6:32 PM  replaceVariablesWithRuntimeProperties - replacing variables
+   [testng]  INFO 6:32 PM  replaceVariablesWithRuntimeProperties - https://qa-api.firstgiving.com/donation/creditcard
+   [testng] false
+   [testng] true
+   [testng] true
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : charityId
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : charityId
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : charityId
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : ccCardValidationNum
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : ccCardValidationNum
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : ccCardValidationNum
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : billToFirstName
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : billToFirstName
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : billToFirstName
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : billToAddressLine3
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : billToAddressLine3
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : billToAddressLine3
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : ccNumber
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : ccNumber
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : ccNumber
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : billToAddressLine2
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : billToAddressLine2
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : billToAddressLine2
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : billToAddressLine1
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : billToAddressLine1
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : billToAddressLine1
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : remoteAddr
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : remoteAddr
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : remoteAddr
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : billToCity
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : billToCity
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : billToCity
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : ccExpDateMonth
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : ccExpDateMonth
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : ccExpDateMonth
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : currencyCode
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : currencyCode
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : currencyCode
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : donationMessage
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : donationMessage
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : donationMessage
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : amount
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : amount
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : amount
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : orderId
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : orderId
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : orderId
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : billToZip
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : billToZip
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : billToZip
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : personalIdentificationNumber
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : personalIdentificationNumber
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : personalIdentificationNumber
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : billToState
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : billToState
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : billToState
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : billToCountry
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : billToCountry
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : billToCountry
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : reportDonationToTaxAuthority
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : reportDonationToTaxAuthority
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : reportDonationToTaxAuthority
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : billToMiddleName
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : billToMiddleName
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : billToMiddleName
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : eventId
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : eventId
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : eventId
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : ccType
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : ccType
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : ccType
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : ccExpDateYear
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : ccExpDateYear
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : ccExpDateYear
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : description
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : description
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : description
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : billToEmail
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : billToEmail
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : billToEmail
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : billToLastName
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : billToLastName
+   [testng]  INFO 6:32 PM  getRunTimeProperty - getting runtime value for Key : billToLastName
+   [testng]  INFO 6:32 PM  getHttpMethod - initialising request type : POST
+   [testng]  INFO 6:32 PM  addHeader - adding headers
+   [testng]  INFO 6:32 PM  execute - Executing : POST Request
+   [testng]  INFO 6:33 PM  verifyStatus - verifying Status code and message
+   [testng]  INFO 6:33 PM  getXmlResponseBody - responseBody :<?xml version="1.0" encoding="utf-8"?><firstGivingDonationApi xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><firstGivingResponse acknowledgement="Success"><transactionId>a-2e446956a39e01438ab074</transactionId><donationId>8865510</donationId></firstGivingResponse></firstGivingDonationApi>
+   [testng]  INFO 6:33 PM  onTestSuccess - ###############################################################
+   [testng]  INFO 6:33 PM  onTestSuccess - SUCCESS ---------tc_API_001_DonationAPI has passed-----------------
+   [testng]  INFO 6:33 PM  onTestSuccess - ###############################################################
+   [testng]  INFO 6:33 PM  AddLogFileToReport - after suite
+   [testng] 
+   [testng] ===============================================
+   [testng] FrontStream Pilot Suite
+   [testng] Total tests run: 3, Failures: 1, Skips: 0
+   [testng] ===============================================
+   [testng] 
+ [trycatch] Caught exception: The tests failed.
+     [echo] Error in trycatch block:
+     [echo] D:\FrontStream_Final\FrontStream_project\build.xml:55: The tests failed.
+Project base dir set to: D:\FrontStream_Final\FrontStream_project
+  [antcall] calling target(s) [LaunchReportNGReports] in build file D:\FrontStream_Final\FrontStream_project\build.xml
+parsing buildfile D:\FrontStream_Final\FrontStream_project\build.xml with URI = file:/D:/FrontStream_Final/FrontStream_project/build.xml
+Project base dir set to: D:\FrontStream_Final\FrontStream_project
+Override ignored for property "build.dir"
+Override ignored for property "lib.dir"
+Override ignored for property "config.dir"
+Override ignored for property "testngfail.dir"
+ [property] Loading Environment env.
+Override ignored for property "env.NUMBER_OF_PROCESSORS"
+Override ignored for property "env.PSModulePath"
+Override ignored for property "env.USERPROFILE"
+Override ignored for property "env.windir"
+Override ignored for property "env.PROCESSOR_IDENTIFIER"
+Override ignored for property "env.FP_NO_HOST_CHECK"
+Override ignored for property "env.PROCESSOR_ARCHITECTURE"
+Override ignored for property "env.CommonProgramFiles"
+Override ignored for property "env.JDK"
+Override ignored for property "env.PUBLIC"
+Override ignored for property "env.PATHEXT"
+Override ignored for property "env._USE_CLASSPATH"
+Override ignored for property "env.SystemRoot"
+Override ignored for property "env.OS"
+Override ignored for property "env.COMPUTERNAME"
+Override ignored for property "env.HOMEPATH"
+Override ignored for property "env.APPDATA"
+Override ignored for property "env.SystemDrive"
+Override ignored for property "env.ProgramData"
+Override ignored for property "env.USERDOMAIN"
+Override ignored for property "env.=::"
+Override ignored for property "env.VISUALSVN_SERVER"
+Override ignored for property "env.ComSpec"
+Override ignored for property "env.USERNAME"
+Override ignored for property "env.Path"
+Override ignored for property "env.PROCESSOR_LEVEL"
+Override ignored for property "env.HOMEDRIVE"
+Override ignored for property "env.TMP"
+Override ignored for property "env.SIKULIX_HOME"
+Override ignored for property "env.ANDROID_HOME"
+Override ignored for property "env.JAVA_HOME"
+Override ignored for property "env.=D:"
+Override ignored for property "env.ProgramFiles"
+Override ignored for property "env.PROMPT"
+Override ignored for property "env.ALLUSERSPROFILE"
+Override ignored for property "env.LOGONSERVER"
+Override ignored for property "env.SESSIONNAME"
+Override ignored for property "env._JAVACMD"
+Override ignored for property "env.TEMP"
+Override ignored for property "env.MAVEN_HOME"
+Override ignored for property "env.LOCALAPPDATA"
+Override ignored for property "env.PROCESSOR_REVISION"
+Override ignored for property "env.ANT_HOME"
+Override ignored for property "ANT_HOME"
+Override ignored for property "aspectj.version"
+Override ignored for property "user.java.version"
+Override ignored for property "build.log.dir"
+Override ignored for property "Reportdir"
+Build sequence for target(s) `LaunchReportNGReports' is [LaunchReportNGReports]
+Complete build sequence is [LaunchReportNGReports, setClassPath, loadTestNG, init, Ant-TryCatch, runTests, SendMail, ]
+  [antcall] Entering D:\FrontStream_Final\FrontStream_project\build.xml...
+Build sequence for target(s) `LaunchReportNGReports' is [LaunchReportNGReports]
+Complete build sequence is [LaunchReportNGReports, setClassPath, loadTestNG, init, Ant-TryCatch, runTests, SendMail, ]
+
+LaunchReportNGReports:
+     [echo] move log folder to LatestResults...............
+     [move] Attempting to rename dir: D:\FrontStream_Final\FrontStream_project\Automation Reports\Reports to D:\FrontStream_Final\FrontStream_project\Automation Reports\LatestResults
+     [move] Moving 16 files to D:\FrontStream_Final\FrontStream_project\Automation Reports\LatestResults
+     [move] Attempting to rename: D:\FrontStream_Final\FrontStream_project\Automation Reports\Log.log to D:\FrontStream_Final\FrontStream_project\Automation Reports\LatestResults\Log.log
+     [move] Attempting to rename: D:\FrontStream_Final\FrontStream_project\Automation Reports\Reports\html\index.html to D:\FrontStream_Final\FrontStream_project\Automation Reports\LatestResults\html\index.html
+     [move] Attempting to rename: D:\FrontStream_Final\FrontStream_project\Automation Reports\Reports\html\output.html to D:\FrontStream_Final\FrontStream_project\Automation Reports\LatestResults\html\output.html
+     [move] Attempting to rename: D:\FrontStream_Final\FrontStream_project\Automation Reports\Reports\html\overview.html to D:\FrontStream_Final\FrontStream_project\Automation Reports\LatestResults\html\overview.html
+     [move] Attempting to rename: D:\FrontStream_Final\FrontStream_project\Automation Reports\Reports\html\reportng.css to D:\FrontStream_Final\FrontStream_project\Automation Reports\LatestResults\html\reportng.css
+     [move] Attempting to rename: D:\FrontStream_Final\FrontStream_project\Automation Reports\Reports\html\reportng.js to D:\FrontStream_Final\FrontStream_project\Automation Reports\LatestResults\html\reportng.js
+     [move] Attempting to rename: D:\FrontStream_Final\FrontStream_project\Automation Reports\Reports\html\sorttable.js to D:\FrontStream_Final\FrontStream_project\Automation Reports\LatestResults\html\sorttable.js
+     [move] Attempting to rename: D:\FrontStream_Final\FrontStream_project\Automation Reports\Reports\html\suite1_groups.html to D:\FrontStream_Final\FrontStream_project\Automation Reports\LatestResults\html\suite1_groups.html
+     [move] Attempting to rename: D:\FrontStream_Final\FrontStream_project\Automation Reports\Reports\html\suite1_test1_results.html to D:\FrontStream_Final\FrontStream_project\Automation Reports\LatestResults\html\suite1_test1_results.html
+     [move] Attempting to rename: D:\FrontStream_Final\FrontStream_project\Automation Reports\Reports\html\suite1_test2_results.html to D:\FrontStream_Final\FrontStream_project\Automation Reports\LatestResults\html\suite1_test2_results.html
+     [move] Attempting to rename: D:\FrontStream_Final\FrontStream_project\Automation Reports\Reports\html\suite1_test3_results.html to D:\FrontStream_Final\FrontStream_project\Automation Reports\LatestResults\html\suite1_test3_results.html
+     [move] Attempting to rename: D:\FrontStream_Final\FrontStream_project\Automation Reports\Reports\html\suites.html to D:\FrontStream_Final\FrontStream_project\Automation Reports\LatestResults\html\suites.html
+     [move] Attempting to rename: D:\FrontStream_Final\FrontStream_project\Automation Reports\Reports\testng-results.xml to D:\FrontStream_Final\FrontStream_project\Automation Reports\LatestResults\testng-results.xml
+     [move] Attempting to rename: D:\FrontStream_Final\FrontStream_project\Automation Reports\Reports\xml\com.testsuite.EventCreation_results.xml to D:\FrontStream_Final\FrontStream_project\Automation Reports\LatestResults\xml\com.testsuite.EventCreation_results.xml
+     [move] Attempting to rename: D:\FrontStream_Final\FrontStream_project\Automation Reports\Reports\xml\com.testsuite.accountingapi.Disbursement_results.xml to D:\FrontStream_Final\FrontStream_project\Automation Reports\LatestResults\xml\com.testsuite.accountingapi.Disbursement_results.xml
+     [move] Attempting to rename: D:\FrontStream_Final\FrontStream_project\Automation Reports\Reports\xml\com.testsuite.api.FirstGivingDonationAPI_results.xml to D:\FrontStream_Final\FrontStream_project\Automation Reports\LatestResults\xml\com.testsuite.api.FirstGivingDonationAPI_results.xml
+     [move] Deleting directory D:\FrontStream_Final\FrontStream_project\Automation Reports\Reports\html
+     [move] Deleting directory D:\FrontStream_Final\FrontStream_project\Automation Reports\Reports\xml
+     [move] Deleting directory D:\FrontStream_Final\FrontStream_project\Automation Reports\Reports
+     [echo] ReportNG reports are generated...
+     [echo] Launching ReportNG reports with default browser...............
+LaunchReportNGReports:  duration 0 seconds
+  [antcall] Exiting D:\FrontStream_Final\FrontStream_project\build.xml.
+runTests:  duration 0 seconds
+
+BUILD SUCCESSFUL

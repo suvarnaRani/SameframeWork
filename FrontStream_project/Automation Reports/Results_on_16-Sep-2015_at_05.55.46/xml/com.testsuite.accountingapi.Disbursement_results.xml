@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RunAccountingAPITests"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="46.178">
+  <properties />
+  
+  
+            <testcase name="tc_AccountingAPI_001_testProcessDonations" time="46.178" classname="com.testsuite.accountingapi.Disbursement" />
+      
+</testsuite>

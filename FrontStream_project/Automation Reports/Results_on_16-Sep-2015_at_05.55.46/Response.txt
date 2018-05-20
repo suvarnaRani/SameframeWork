@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><firstGivingDonationApi xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><firstGivingResponse acknowledgement="Success"><transactionId>a-2e446956a39e01438ab074</transactionId><donationId>8865510</donationId></firstGivingResponse></firstGivingDonationApi>

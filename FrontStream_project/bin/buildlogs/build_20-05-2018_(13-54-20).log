@@ -1,0 +1,539 @@
+     [echo] Build logs can be found at build_20-05-2018_(13-54-20).log
+init:  duration 0 seconds
+
+setClassPath:
+     [echo] Setting CLASSPATH.....
+[pathconvert] Set property test.classpath = D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\Decoder.jar:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\FastInfoset-1.2.12.jar:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\Fillo-1.6.jar:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\activation.jar:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\allure-java-adaptor-api-1.4.0.jar:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\allure-java-annotations-1.4.0.jar:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\allure-java-aspects-1.4.0.jar:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\allure-model-1.4.0.jar:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\allure-testng-adaptor-1.4.0-javadoc.jar:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\allure-testng-adaptor-1.4.0-sources.jar:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\allure-testng-adaptor-1.4.0.jar:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\ant-contrib-0.6.jar:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\aspectjrt-1.8.4.jar:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\aspectjweaver-1.8.4-sources.jar:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\aspectjweaver-1.8.4.jar:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\automaton.jar:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\bsh-2.0b4.jar:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\commons-beanutils-core-1.8.3.jar:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\commons-configuration-1.9.jar:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\commons-lang-2.6.jar:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\commons-logging-1.1.1.jar:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\dom4j-full.jar:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\fontbox-1.8.8.jar:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\guice-3.0.jar:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\hamcrest-core-1.3.jar:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\istack-commons-runtime-2.16.jar:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\javacsv.jar:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\jaxb-api-2.2.7.jar:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\jaxb-core-2.2.7.jar:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\jaxb-impl-2.2.7.jar:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\jaxb2-basics-runtime-0.6.5.jar:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\jcommander-1.27.jar:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\jdom-2.0.5.jar:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\json-simple.jar:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\jsr173_api-1.0.jar:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\log4j-1.2.17.jar:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\mail.jar:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\monte-screenrecorder.jar:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\mysql-connector-java-5.1.18-bin.jar:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\pdfbox-1.8.8.jar:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\poi-3.9-20121203.jar:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\poi-ooxml-3.9-20121203.jar:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\poi-ooxml-schemas-3.9-20121203.jar:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\properties-loader-1.5.jar:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\reportng-1.1.4.jar:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\saxon-8.7.jar:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\selenium-java-2.46.0-srcs.jar:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\selenium-java-2.46.0.jar:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\selenium-java-client-driver-tests.jar:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\selenium-java-client-driver.jar:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\selenium-server-standalone-2.46.0.jar:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\sikuli-api-1.0.2-standalone.jar:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\slf4j-api-1.7.7.jar:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\slf4j-log4j12-1.7.7.jar:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\snakeyaml-1.6.jar:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\testng-6.8.7-sources.jar:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\tika-core-1.5.jar:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\velocity-dep-1.4.jar:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\xeger-1.0-SNAPSHOT.jar:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\xmlbeans-2.3.0.jar
+     [echo] CLASSPATH set....
+setClassPath:  duration 0 seconds
+
+loadTestNG:
+     [echo] TestNG loading........
+loadTestNG:  duration 0 seconds
+
+Ant-TryCatch:
+Ant-TryCatch:  duration 0 seconds
+
+runTests:
+     [echo] Running TestNG Suite file.............
+   [testng] Executing 'C:\Program Files\Java\jdk1.8.0_25\jre\bin\java.exe' with arguments:
+'-javaagent:D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project/lib/aspectjweaver-1.8.4.jar'
+'-ea'
+'-Dorg.uncommons.reportng.title=Sample Report'
+'-classpath'
+'D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\Decoder.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\FastInfoset-1.2.12.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\Fillo-1.6.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\activation.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\allure-java-adaptor-api-1.4.0.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\allure-java-annotations-1.4.0.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\allure-java-aspects-1.4.0.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\allure-model-1.4.0.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\allure-testng-adaptor-1.4.0-javadoc.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\allure-testng-adaptor-1.4.0-sources.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\allure-testng-adaptor-1.4.0.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\ant-contrib-0.6.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\aspectjrt-1.8.4.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\aspectjweaver-1.8.4-sources.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\aspectjweaver-1.8.4.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\automaton.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\bsh-2.0b4.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\commons-beanutils-core-1.8.3.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\commons-configuration-1.9.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\commons-lang-2.6.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\commons-logging-1.1.1.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\dom4j-full.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\fontbox-1.8.8.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\guice-3.0.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\hamcrest-core-1.3.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\istack-commons-runtime-2.16.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\javacsv.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\jaxb-api-2.2.7.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\jaxb-core-2.2.7.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\jaxb-impl-2.2.7.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\jaxb2-basics-runtime-0.6.5.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\jcommander-1.27.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\jdom-2.0.5.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\json-simple.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\jsr173_api-1.0.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\log4j-1.2.17.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\mail.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\monte-screenrecorder.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\mysql-connector-java-5.1.18-bin.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\pdfbox-1.8.8.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\poi-3.9-20121203.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\poi-ooxml-3.9-20121203.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\poi-ooxml-schemas-3.9-20121203.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\properties-loader-1.5.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\reportng-1.1.4.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\saxon-8.7.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\selenium-java-2.46.0-srcs.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\selenium-java-2.46.0.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\selenium-java-client-driver-tests.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\selenium-java-client-driver.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\selenium-server-standalone-2.46.0.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\sikuli-api-1.0.2-standalone.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\slf4j-api-1.7.7.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\slf4j-log4j12-1.7.7.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\snakeyaml-1.6.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\testng-6.8.7-sources.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\tika-core-1.5.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\velocity-dep-1.4.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\xeger-1.0-SNAPSHOT.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\lib\xmlbeans-2.3.0.jar;D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\bin\build'
+'org.testng.TestNG'
+'@C:\Users\LINGA_~1\AppData\Local\Temp\testng340978835262736275'
+
+The ' characters around the executable and arguments are
+not part of the command.
+   [testng] [TestNG] Running:
+   [testng]   D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\TestNGSuites\TestNG.xml
+   [testng] 
+   [testng]  INFO 1:54 PM  beforeSuite - <h2>--------------------SuiteRunner Log-------------------------<h2>
+   [testng] GUI
+   [testng]  INFO 1:54 PM  initiateDriver - Browser name present in config file :Chrome
+   [testng]  INFO 1:54 PM  initiateDriver - -----------------STARTED RUNNING SELENIUM TESTS ON LOCAL MACHINE------------------
+   [testng]  INFO 1:54 PM  getBrowserInstance - The Browser Name is provided as Chrome
+   [testng]  INFO 1:54 PM  initChromeDriver - Launching google chrome with new profile..
+   [testng]  INFO 1:54 PM  initChromeDriver - chrome driver initialized..
+   [testng] Starting ChromeDriver 2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961) on port 7419
+   [testng] Only local connections are allowed.
+   [testng] May 20, 2018 1:54:41 PM org.openqa.selenium.os.UnixProcess$SeleniumWatchDog destroyHarder
+   [testng] INFO: Command failed to close cleanly. Destroying forcefully (v2). org.openqa.selenium.os.UnixProcess$SeleniumWatchDog@205c1abe
+   [testng] ERROR 1:54 PM  initializeBaseSetup - session not created exception
+   [testng] from unknown error: Runtime.executionContextCreated has invalid 'context': {"auxData":{"frameId":"15750272D4C7A039D477D6C91CAF786D","isDefault":true},"id":1,"name":"","origin":"://"}
+   [testng]   (Session info: chrome=66.0.3359.139)
+   [testng]   (Driver info: chromedriver=2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961),platform=Windows NT 10.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+   [testng] Command duration or timeout: 14.51 seconds
+   [testng] Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+   [testng] System info: host: 'WINDOWS-0G54QL6', ip: '192.168.30.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_25'
+   [testng] Driver info: org.openqa.selenium.chrome.ChromeDriver---
+   [testng] com.base.BaseSetup.initializeBaseSetup(BaseSetup.java:121)
+   [testng] sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+   [testng] sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+   [testng] sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+   [testng] java.lang.reflect.Method.invoke(Method.java:483)
+   [testng] org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+   [testng] org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+   [testng] org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+   [testng] org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
+   [testng] org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+   [testng] org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+   [testng] org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+   [testng] org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+   [testng] org.testng.TestRunner.privateRun(TestRunner.java:767)
+   [testng] org.testng.TestRunner.run(TestRunner.java:617)
+   [testng] org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+   [testng] org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+   [testng] org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+   [testng] org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+   [testng] java.util.concurrent.FutureTask.run(FutureTask.java:266)
+   [testng] java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+   [testng] java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+   [testng] java.lang.Thread.run(Thread.java:745)
+   [testng]  INFO 1:54 PM  onTestStart - <h2>**************CURRENTLY RUNNING TEST************ tc_AccountingAPI_001_testProcessDonations</h2>
+   [testng]  WARN 1:54 PM  onTestSkipped - @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+   [testng]  WARN 1:54 PM  onTestSkipped - WARN ------------tc_AccountingAPI_001_testProcessDonations has skipped-----------------
+   [testng]  WARN 1:54 PM  onTestSkipped - @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+   [testng] GUI
+   [testng]  INFO 1:54 PM  initiateDriver - Browser name present in config file :Chrome
+   [testng]  INFO 1:54 PM  initiateDriver - -----------------STARTED RUNNING SELENIUM TESTS ON LOCAL MACHINE------------------
+   [testng]  INFO 1:54 PM  getBrowserInstance - The Browser Name is provided as Chrome
+   [testng]  INFO 1:54 PM  initChromeDriver - Launching google chrome with new profile..
+   [testng]  INFO 1:54 PM  initChromeDriver - chrome driver initialized..
+   [testng] Starting ChromeDriver 2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961) on port 16532
+   [testng] Only local connections are allowed.
+   [testng] May 20, 2018 1:56:15 PM org.openqa.selenium.os.UnixProcess$SeleniumWatchDog destroyHarder
+   [testng] INFO: Command failed to close cleanly. Destroying forcefully (v2). org.openqa.selenium.os.UnixProcess$SeleniumWatchDog@2b65ddaf
+   [testng] ERROR 1:56 PM  initializeBaseSetup - Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+   [testng] Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+   [testng] System info: host: 'WINDOWS-0G54QL6', ip: '192.168.30.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_25'
+   [testng] Driver info: driver.version: ChromeDriver---
+   [testng] com.base.BaseSetup.initializeBaseSetup(BaseSetup.java:121)
+   [testng] sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+   [testng] sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+   [testng] sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+   [testng] java.lang.reflect.Method.invoke(Method.java:483)
+   [testng] org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+   [testng] org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+   [testng] org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+   [testng] org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
+   [testng] org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+   [testng] org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+   [testng] org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+   [testng] org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+   [testng] org.testng.TestRunner.privateRun(TestRunner.java:767)
+   [testng] org.testng.TestRunner.run(TestRunner.java:617)
+   [testng] org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+   [testng] org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+   [testng] org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+   [testng] org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+   [testng] java.util.concurrent.FutureTask.run(FutureTask.java:266)
+   [testng] java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+   [testng] java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+   [testng] java.lang.Thread.run(Thread.java:745)
+   [testng]  INFO 1:56 PM  onTestStart - <h2>**************CURRENTLY RUNNING TEST************ tc_001_createAnEventWithPaidRegistration</h2>
+   [testng]  WARN 1:56 PM  onTestSkipped - @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+   [testng]  WARN 1:56 PM  onTestSkipped - WARN ------------tc_001_createAnEventWithPaidRegistration has skipped-----------------
+   [testng]  WARN 1:56 PM  onTestSkipped - @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+   [testng] API
+   [testng]  INFO 1:56 PM  onTestStart - <h2>**************CURRENTLY RUNNING TEST************ tc_API_001_DonationAPI</h2>
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : pledgeId
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : ccNumber
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : ccType
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : ccExpDateYear
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : ccExpDateMonth
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : ccCardValidationNum
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : billToTitle
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : billToFirstName
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : billToMiddleName
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : billToLastName
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : billToAddressLine1
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : billToAddressLine2
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : billToAddressLine3
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : billToCity
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : billToState
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : billToZip
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : billToCountry
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : billToEmail
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : billToPhone
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : remoteAddr
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : amount
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : currencyCode
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : charityId
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : eventId
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : fundraiserId
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : orderId
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : description
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : reportDonationToTaxAuthority
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : personalIdentificationNumber
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : donationMessage
+   [testng]  INFO 1:56 PM  getClient - initializing HttpClient
+   [testng]  INFO 1:56 PM  replaceVariablesWithRuntimeProperties - replacing variables
+   [testng]  INFO 1:56 PM  replaceVariablesWithRuntimeProperties - https://qa-api.firstgiving.com/donation/creditcard
+   [testng] false
+   [testng] true
+   [testng] true
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : charityId
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : charityId
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : charityId
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : ccCardValidationNum
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : ccCardValidationNum
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : ccCardValidationNum
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToFirstName
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToFirstName
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToFirstName
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToAddressLine3
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToAddressLine3
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToAddressLine3
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : ccNumber
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : ccNumber
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : ccNumber
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToAddressLine2
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToAddressLine2
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToAddressLine2
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToAddressLine1
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToAddressLine1
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToAddressLine1
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : remoteAddr
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : remoteAddr
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : remoteAddr
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToCity
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToCity
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToCity
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : ccExpDateMonth
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : ccExpDateMonth
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : ccExpDateMonth
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : currencyCode
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : currencyCode
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : currencyCode
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : donationMessage
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : donationMessage
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : donationMessage
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : amount
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : amount
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : amount
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : orderId
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : orderId
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : orderId
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToZip
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToZip
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToZip
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : personalIdentificationNumber
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : personalIdentificationNumber
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : personalIdentificationNumber
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToState
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToState
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToState
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToCountry
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToCountry
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToCountry
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : reportDonationToTaxAuthority
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : reportDonationToTaxAuthority
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : reportDonationToTaxAuthority
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToMiddleName
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToMiddleName
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToMiddleName
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : eventId
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : eventId
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : eventId
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : ccType
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : ccType
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : ccType
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : ccExpDateYear
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : ccExpDateYear
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : ccExpDateYear
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : description
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : description
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : description
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToEmail
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToEmail
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToEmail
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToLastName
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToLastName
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToLastName
+   [testng]  INFO 1:56 PM  getHttpMethod - initialising request type : POST
+   [testng]  INFO 1:56 PM  addHeader - adding headers
+   [testng]  INFO 1:56 PM  execute - Executing : POST Request
+   [testng] ERROR 1:56 PM  execute - error while executing the requesthttps://qa-api.firstgiving.com/donation/creditcard?charityId=b62c2436-edd0-11df-ab8c-4061860da51d&ccCardValidationNum=123&billToFirstName=John&billToAddressLine3=3MainSt.&ccNumber=4111111111111111&billToAddressLine2=2MainSt.&billToAddressLine1=1MainSt.&remoteAddr=1.1.1.1&billToCity=Burlington&ccExpDateMonth=01&currencyCode=USD&donationMessage=Testing_messag&amount=5.00&orderId=1234&billToZip=01803&personalIdentificationNumber=0&billToState=MA&billToCountry=US&reportDonationToTaxAuthority=0&billToMiddleName=D&eventId=12345&ccType=VI&ccExpDateYear=23&description=Test&billToEmail=alex.winskie@frontstreampayments.com&billToLastName=Smith
+   [testng] 
+   [testng] com.httpclient.APIHelpers.execute(APIHelpers.java:266)
+   [testng] com.httpclient.APIHelpers.executePostRequest(APIHelpers.java:416)
+   [testng] com.testsuite.api.FirstGivingDonationAPI.tc_API_001_DonationAPI(FirstGivingDonationAPI.java:49)
+   [testng] sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+   [testng] sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+   [testng] sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+   [testng] java.lang.reflect.Method.invoke(Method.java:483)
+   [testng] org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+   [testng] org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:46)
+   [testng] org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:37)
+   [testng] org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNoExecutor(MethodInvocationHelper.java:240)
+   [testng] org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:229)
+   [testng] org.testng.internal.Invoker.invokeMethod(Invoker.java:724)
+   [testng] org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+   [testng] org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+   [testng] org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+   [testng] org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+   [testng] org.testng.TestRunner.privateRun(TestRunner.java:767)
+   [testng] org.testng.TestRunner.run(TestRunner.java:617)
+   [testng] org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+   [testng] org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+   [testng] org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+   [testng] org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+   [testng] java.util.concurrent.FutureTask.run(FutureTask.java:266)
+   [testng] java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+   [testng] java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+   [testng] java.lang.Thread.run(Thread.java:745)
+   [testng] ERROR 1:56 PM  onTestFailure - xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+   [testng] 
+   [testng] ERROR 1:56 PM  onTestFailure - ERROR ----------tc_API_001_DonationAPI has failed-----------------
+   [testng] ERROR 1:56 PM  onTestFailure - xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+   [testng] 
+   [testng] API
+   [testng]  INFO 1:56 PM  onTestStart - <h2>**************CURRENTLY RUNNING TEST************ tc_API_001_DonationAPI</h2>
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : pledgeId
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : ccNumber
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : ccType
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : ccExpDateYear
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : ccExpDateMonth
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : ccCardValidationNum
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : billToTitle
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : billToFirstName
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : billToMiddleName
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : billToLastName
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : billToAddressLine1
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : billToAddressLine2
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : billToAddressLine3
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : billToCity
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : billToState
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : billToZip
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : billToCountry
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : billToEmail
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : billToPhone
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : remoteAddr
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : amount
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : currencyCode
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : charityId
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : eventId
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : fundraiserId
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : orderId
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : description
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : reportDonationToTaxAuthority
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : personalIdentificationNumber
+   [testng]  INFO 1:56 PM  setRunTimeProperty - set runtime value for Key : donationMessage
+   [testng]  INFO 1:56 PM  getClient - initializing HttpClient
+   [testng]  INFO 1:56 PM  replaceVariablesWithRuntimeProperties - replacing variables
+   [testng]  INFO 1:56 PM  replaceVariablesWithRuntimeProperties - https://qa-api.firstgiving.com/donation/creditcard
+   [testng] false
+   [testng] true
+   [testng] true
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : charityId
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : charityId
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : charityId
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : ccCardValidationNum
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : ccCardValidationNum
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : ccCardValidationNum
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToFirstName
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToFirstName
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToFirstName
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToAddressLine3
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToAddressLine3
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToAddressLine3
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : ccNumber
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : ccNumber
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : ccNumber
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToAddressLine2
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToAddressLine2
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToAddressLine2
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToAddressLine1
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToAddressLine1
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToAddressLine1
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : remoteAddr
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : remoteAddr
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : remoteAddr
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToCity
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToCity
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToCity
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : ccExpDateMonth
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : ccExpDateMonth
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : ccExpDateMonth
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : currencyCode
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : currencyCode
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : currencyCode
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : donationMessage
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : donationMessage
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : donationMessage
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : amount
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : amount
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : amount
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : orderId
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : orderId
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : orderId
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToZip
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToZip
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToZip
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : personalIdentificationNumber
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : personalIdentificationNumber
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : personalIdentificationNumber
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToState
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToState
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToState
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToCountry
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToCountry
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToCountry
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : reportDonationToTaxAuthority
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : reportDonationToTaxAuthority
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : reportDonationToTaxAuthority
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToMiddleName
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToMiddleName
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToMiddleName
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : eventId
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : eventId
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : eventId
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : ccType
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : ccType
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : ccType
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : ccExpDateYear
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : ccExpDateYear
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : ccExpDateYear
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : description
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : description
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : description
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToEmail
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToEmail
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToEmail
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToLastName
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToLastName
+   [testng]  INFO 1:56 PM  getRunTimeProperty - getting runtime value for Key : billToLastName
+   [testng]  INFO 1:56 PM  getHttpMethod - initialising request type : POST
+   [testng]  INFO 1:56 PM  addHeader - adding headers
+   [testng]  INFO 1:56 PM  execute - Executing : POST Request
+   [testng] ERROR 1:56 PM  execute - error while executing the requesthttps://qa-api.firstgiving.com/donation/creditcard?charityId=b62c2436-edd0-11df-ab8c-4061860da51d&ccCardValidationNum=123&billToFirstName=John&billToAddressLine3=3MainSt.&ccNumber=4111111111111111&billToAddressLine2=2MainSt.&billToAddressLine1=1MainSt.&remoteAddr=1.1.1.1&billToCity=Burlington&ccExpDateMonth=01&currencyCode=USD&donationMessage=Testing_messag&amount=5.00&orderId=1234&billToZip=01803&personalIdentificationNumber=0&billToState=MA&billToCountry=US&reportDonationToTaxAuthority=0&billToMiddleName=D&eventId=12345&ccType=VI&ccExpDateYear=23&description=Test&billToEmail=alex.winskie@frontstreampayments.com&billToLastName=Smith
+   [testng] 
+   [testng] com.httpclient.APIHelpers.execute(APIHelpers.java:266)
+   [testng] com.httpclient.APIHelpers.executePostRequest(APIHelpers.java:416)
+   [testng] com.testsuite.api.FirstGivingDonationAPI.tc_API_001_DonationAPI(FirstGivingDonationAPI.java:49)
+   [testng] sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+   [testng] sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+   [testng] sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+   [testng] java.lang.reflect.Method.invoke(Method.java:483)
+   [testng] org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+   [testng] org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:46)
+   [testng] org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:37)
+   [testng] org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNoExecutor(MethodInvocationHelper.java:240)
+   [testng] org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:229)
+   [testng] org.testng.internal.Invoker.invokeMethod(Invoker.java:724)
+   [testng] org.testng.internal.Invoker.retryFailed(Invoker.java:1049)
+   [testng] org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1254)
+   [testng] org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+   [testng] org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+   [testng] org.testng.TestRunner.privateRun(TestRunner.java:767)
+   [testng] org.testng.TestRunner.run(TestRunner.java:617)
+   [testng] org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+   [testng] org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+   [testng] org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+   [testng] org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+   [testng] java.util.concurrent.FutureTask.run(FutureTask.java:266)
+   [testng] java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+   [testng] java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+   [testng] java.lang.Thread.run(Thread.java:745)
+   [testng] ERROR 1:56 PM  onTestFailure - xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+   [testng] 
+   [testng] ERROR 1:56 PM  onTestFailure - ERROR ----------tc_API_001_DonationAPI has failed-----------------
+   [testng] ERROR 1:56 PM  onTestFailure - xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+   [testng] 
+   [testng]  INFO 1:56 PM  AddLogFileToReport - after suite
+   [testng] 
+   [testng] ===============================================
+   [testng] FrontStream Pilot Suite
+   [testng] Total tests run: 3, Failures: 1, Skips: 2
+   [testng] Configuration Failures: 2, Skips: 2
+   [testng] ===============================================
+   [testng] 
+ [trycatch] Caught exception: The tests failed.
+     [echo] Error in trycatch block:
+     [echo] D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\build.xml:55: The tests failed.
+Project base dir set to: D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project
+  [antcall] calling target(s) [LaunchReportNGReports] in build file D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\build.xml
+parsing buildfile D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\build.xml with URI = file:/D:/Suvarna_Rani/download/Selenium/Framework/FrontStream_project/build.xml
+Project base dir set to: D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project
+Override ignored for property "build.dir"
+Override ignored for property "lib.dir"
+Override ignored for property "config.dir"
+Override ignored for property "testngfail.dir"
+ [property] Loading Environment env.
+Override ignored for property "env.NUMBER_OF_PROCESSORS"
+Override ignored for property "env.asl.log"
+Override ignored for property "env.USERPROFILE"
+Override ignored for property "env.FP_NO_HOST_CHECK"
+Override ignored for property "env.HOME"
+Override ignored for property "env.PROCESSOR_ARCHITECTURE"
+Override ignored for property "env.CommonProgramW6432"
+Override ignored for property "env.SystemRoot"
+Override ignored for property "env.OS"
+Override ignored for property "env.USERDOMAIN"
+Override ignored for property "env.=::"
+Override ignored for property "env.ComSpec"
+Override ignored for property "env.JAVA_HOME"
+Override ignored for property "env.ProgramFiles"
+Override ignored for property "env.PROMPT"
+Override ignored for property "env.ALLUSERSPROFILE"
+Override ignored for property "env.SESSIONNAME"
+Override ignored for property "env._JAVACMD"
+Override ignored for property "env.LOCALAPPDATA"
+Override ignored for property "env.USERDOMAIN_ROAMINGPROFILE"
+Override ignored for property "env.PROCESSOR_REVISION"
+Override ignored for property "env.ANT_HOME"
+Override ignored for property "env.PSModulePath"
+Override ignored for property "env.windir"
+Override ignored for property "env.PROCESSOR_IDENTIFIER"
+Override ignored for property "env.ProgramW6432"
+Override ignored for property "env.CommonProgramFiles"
+Override ignored for property "env.JDK"
+Override ignored for property "env.CommonProgramFiles(x86)"
+Override ignored for property "env.PUBLIC"
+Override ignored for property "env.PATHEXT"
+Override ignored for property "env.BuildLab"
+Override ignored for property "env._USE_CLASSPATH"
+Override ignored for property "env.COMPUTERNAME"
+Override ignored for property "env.ProgFiles86Root"
+Override ignored for property "env.HOMEPATH"
+Override ignored for property "env.APPDATA"
+Override ignored for property "env.SystemDrive"
+Override ignored for property "env.VBOX_MSI_INSTALL_PATH"
+Override ignored for property "env.ProgramData"
+Override ignored for property "env.VISUALSVN_SERVER"
+Override ignored for property "env.USERNAME"
+Override ignored for property "env.Path"
+Override ignored for property "env.PROCESSOR_LEVEL"
+Override ignored for property "env.HOMEDRIVE"
+Override ignored for property "env.BuildLabEx"
+Override ignored for property "env.TMP"
+Override ignored for property "env.SIKULIX_HOME"
+Override ignored for property "env.=D:"
+Override ignored for property "env.ProgramFiles(x86)"
+Override ignored for property "env.LOGONSERVER"
+Override ignored for property "env.TEMP"
+Override ignored for property "env.OneDrive"
+Override ignored for property "ANT_HOME"
+Override ignored for property "aspectj.version"
+Override ignored for property "user.java.version"
+Override ignored for property "build.log.dir"
+Override ignored for property "Reportdir"
+Build sequence for target(s) `LaunchReportNGReports' is [LaunchReportNGReports]
+Complete build sequence is [LaunchReportNGReports, setClassPath, loadTestNG, init, Ant-TryCatch, runTests, SendMail, ]
+  [antcall] Entering D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\build.xml...
+Build sequence for target(s) `LaunchReportNGReports' is [LaunchReportNGReports]
+Complete build sequence is [LaunchReportNGReports, setClassPath, loadTestNG, init, Ant-TryCatch, runTests, SendMail, ]
+
+LaunchReportNGReports:
+     [echo] move log folder to LatestResults...............
+     [move] Attempting to rename dir: D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\Automation Reports\Reports to D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\Automation Reports\LatestResults
+     [move] Moving 16 files to D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\Automation Reports\LatestResults
+     [move] Attempting to rename: D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\Automation Reports\Log.log to D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\Automation Reports\LatestResults\Log.log
+     [move] Attempting to rename: D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\Automation Reports\Reports\html\index.html to D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\Automation Reports\LatestResults\html\index.html
+     [move] Attempting to rename: D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\Automation Reports\Reports\html\output.html to D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\Automation Reports\LatestResults\html\output.html
+     [move] Attempting to rename: D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\Automation Reports\Reports\html\overview.html to D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\Automation Reports\LatestResults\html\overview.html
+     [move] Attempting to rename: D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\Automation Reports\Reports\html\reportng.css to D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\Automation Reports\LatestResults\html\reportng.css
+     [move] Attempting to rename: D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\Automation Reports\Reports\html\reportng.js to D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\Automation Reports\LatestResults\html\reportng.js
+     [move] Attempting to rename: D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\Automation Reports\Reports\html\sorttable.js to D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\Automation Reports\LatestResults\html\sorttable.js
+     [move] Attempting to rename: D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\Automation Reports\Reports\html\suite1_groups.html to D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\Automation Reports\LatestResults\html\suite1_groups.html
+     [move] Attempting to rename: D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\Automation Reports\Reports\html\suite1_test1_results.html to D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\Automation Reports\LatestResults\html\suite1_test1_results.html
+     [move] Attempting to rename: D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\Automation Reports\Reports\html\suite1_test2_results.html to D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\Automation Reports\LatestResults\html\suite1_test2_results.html
+     [move] Attempting to rename: D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\Automation Reports\Reports\html\suite1_test3_results.html to D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\Automation Reports\LatestResults\html\suite1_test3_results.html
+     [move] Attempting to rename: D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\Automation Reports\Reports\html\suites.html to D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\Automation Reports\LatestResults\html\suites.html
+     [move] Attempting to rename: D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\Automation Reports\Reports\testng-results.xml to D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\Automation Reports\LatestResults\testng-results.xml
+     [move] Attempting to rename: D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\Automation Reports\Reports\xml\com.testsuite.EventCreation_results.xml to D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\Automation Reports\LatestResults\xml\com.testsuite.EventCreation_results.xml
+     [move] Attempting to rename: D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\Automation Reports\Reports\xml\com.testsuite.accountingapi.Disbursement_results.xml to D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\Automation Reports\LatestResults\xml\com.testsuite.accountingapi.Disbursement_results.xml
+     [move] Attempting to rename: D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\Automation Reports\Reports\xml\com.testsuite.api.FirstGivingDonationAPI_results.xml to D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\Automation Reports\LatestResults\xml\com.testsuite.api.FirstGivingDonationAPI_results.xml
+     [move] Deleting directory D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\Automation Reports\Reports\html
+     [move] Deleting directory D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\Automation Reports\Reports\xml
+     [move] Deleting directory D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\Automation Reports\Reports
+     [echo] ReportNG reports are generated...
+     [echo] Launching ReportNG reports with default browser...............
+LaunchReportNGReports:  duration 3 seconds
+  [antcall] Exiting D:\Suvarna_Rani\download\Selenium\Framework\FrontStream_project\build.xml.
+runTests:  duration 3 seconds
+
+BUILD SUCCESSFUL

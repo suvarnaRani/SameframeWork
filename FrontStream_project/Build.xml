@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="SampleProject" default="runTests" basedir=".">
+
+	<property name="build.dir" value="${basedir}/bin/build"/>
+	<property name="lib.dir" value="${basedir}/lib"/>
+	<property name="config.dir" value="${basedir}/TestNGSuites"/>
+	<property name="testngfail.dir" value="${basedir}/TestNG-Output"/>
+	<property environment="env"/>
+	<property name="ANT_HOME" value="${env.ANT_HOME}"/>
+	<property name="aspectj.version" value="1.8.4"/>
+	<property name="user.java.version" value="1.7"/>
+	<property name="build.log.dir" location="${basedir}/bin/buildlogs"/>
+	<property name="Reportdir" location="${basedir}/Automation Reports/LatestResults" />
+	
+
+	<target name="setClassPath" >
+		<echo message="Setting CLASSPATH....."/>
+		<path id="classpath_jars">
+			<pathelement path="${basedir}/" />
+			<fileset dir="${lib.dir}" includes="*.jar" />
+		</path>
+		<pathconvert pathsep=":" property="test.classpath" refid="classpath_jars" />
+		<echo message="CLASSPATH set...."/>
+	</target>
+
+
+
+	<target name="loadTestNG" depends="setClassPath">
+		<echo message="TestNG loading........"/>
+		<taskdef resource="testngtasks" classpath="${test.classpath}"/>
+	</target>
+
+
+	<target name="init">
+		<tstamp>
+			<format property="timestamp" pattern="dd-MM-yyyy_(HH-mm-ss)"/>
+		</tstamp>
+
+		<mkdir dir="${build.log.dir}"/>
+		<property name="build.log.filename" value="build_${timestamp}.log"/>
+		<record name="${build.log.dir}/${build.log.filename}" loglevel="verbose" append="false"/>
+		<echo message="Build logs can be found at ${build.log.filename}"/>
+	</target>
+
+
+	<target name="runTests" depends="init,setClassPath,loadTestNG,Ant-TryCatch">
+		<trycatch reference="exception_ref">
+			<try>
+				<echo message="Running TestNG Suite file............."/>
+				<property name ="archive.name" value="Automation Reports/Reports" />
+				<testng classpath="${test.classpath}:${build.dir}" outputdir="${archive.name}"
+			            haltonfailure="true"
+			            useDefaultListeners="false"
+			            listeners="org.uncommons.reportng.HTMLReporter,org.uncommons.reportng.JUnitXMLReporter,org.testng.reporters.XMLReporter">
+					<jvmarg value="-javaagent:${lib.dir}/aspectjweaver-${aspectj.version}.jar"/>
+					<xmlfileset dir="${config.dir}" includes="TestNG.xml"/>
+					<sysproperty key="org.uncommons.reportng.title" value="Sample Report"/>
+				</testng>
+				<antcall target="LaunchReportNGReports">
+				</antcall>
+			</try>
+			<catch>
+				<property name="exception" refid="exception_ref" />
+				<property name="message" value="Error in trycatch block:${line.separator}${exception}" />
+				<echo message="${message}" />
+				<antcall target="LaunchReportNGReports">
+				</antcall>
+			</catch>
+		</trycatch>
+	</target>
+
+	<target name="LaunchReportNGReports">
+		<echo message="move log folder to LatestResults..............."/>
+		<move todir="${basedir}/Automation Reports/LatestResults">
+			<filelist dir="${basedir}/Automation Reports">
+				<file name="Log.log"/>
+			</filelist>
+			<fileset dir="${basedir}/Automation Reports/Reports"/>
+		</move>
+
+		<echo message="ReportNG reports are generated..."/>
+		<echo message="Launching ReportNG reports with default browser..............."/>
+		<script language="javascript">
+			<![CDATA[
+	            var location = "file:///"+project.getProperty("Reportdir").toString().replaceAll("\\\\","/")+"/html/index.html";
+	            location = location.toString().replace(/ /g, "%20");
+	             // show URL - copy and paste into browser address bar to test location
+	            //println(location);
+	            var uriLocation = java.net.URI.create(location);
+	            var desktop = java.awt.Desktop.getDesktop();
+	            desktop.browse(uriLocation);
+	        ]]>
+		</script>
+	</target>
+
+	<target name="Ant-TryCatch">
+		<taskdef resource="net/sf/antcontrib/antcontrib.properties">
+			<classpath>
+				<pathelement location="${basedir}/lib/ant-contrib-0.6.jar"/>
+			</classpath>
+		</taskdef>
+	</target>
+
+	<target name="SendMail" depends="runTests">
+		<zip destfile="${basedir}/Automation Reports/LatestResults/Reports.zip"
+	   basedir="${basedir}/Automation Reports/LatestResults"
+	   includes="html/**,Screenshots/**"
+	/>
+		<mail tolist="blackthornzenqa@gmail.com" from="blackthornzenqa@gmail.com" subject="Selenium Automation Results" mailhost="pop.gmail.com" mailport="587" ssl="true" user="blackthornzenqa@gmail.com" password="second@123">
+			<message>The automation build has completed successfully. Please find enclosed ReportNG Report</message>
+			<attachments>
+				<fileset dir="${basedir}/Automation Reports/LatestResults">
+					<include name="**/*.zip"/>
+				</fileset>
+			</attachments>
+		</mail>
+	</target>
+</project>
